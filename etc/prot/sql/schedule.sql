@@ -1,0 +1,1 @@
+CREATE EVENT depth_checker ON SCHEDULE EVERY 1 DAY DO CALL check_depth();

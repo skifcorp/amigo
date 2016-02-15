@@ -1,0 +1,22 @@
+
+
+project : requirements <include>/usr/local/include 
+                       <include>../../core
+                       <include>../../core/protocols
+                       <include>../connection
+                       <variant>debug 
+                       <threading>multi 
+                       <cxxflags>-std=gnu++0x
+                       <dll-path>/usr/
+        : build-dir ../../../obj/net/votlis_rmt
+        ;
+
+
+
+lib votlis_rmt        : votlis_rmt.cpp linker.h linker.cpp tagconf.h tagconf.cpp votlismaster.h votlismaster.cpp votlisprotocol.h 
+                        ../connection/outputethernetconnection.h  ../connection/outputethernetconnection.cpp ../../core/tag.h ../../core/tag.cpp
+                      ;
+
+install dist : votlis_rmt
+             : <location>../../../lib <hardcode-dll-paths>true
+             ;

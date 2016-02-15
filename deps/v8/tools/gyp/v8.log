@@ -1,0 +1,1498 @@
+code-creation,Stub,0x42360020,175,"JSEntryStub"
+code-creation,Stub,0x423600e0,175,"JSConstructEntryStub"
+code-creation,Stub,0x423601a0,558,"CEntryStub"
+code-creation,Builtin,0x423603e0,45,"Illegal"
+code-creation,Builtin,0x42360420,45,"EmptyFunction"
+code-creation,Builtin,0x42360460,45,"ArrayCodeGeneric"
+code-creation,Builtin,0x423604a0,45,"ArrayPush"
+code-creation,Builtin,0x423604e0,45,"ArrayPop"
+code-creation,Builtin,0x42360520,45,"ArrayShift"
+code-creation,Builtin,0x42360560,45,"ArrayUnshift"
+code-creation,Builtin,0x423605a0,45,"ArraySlice"
+code-creation,Builtin,0x423605e0,45,"ArraySplice"
+code-creation,Builtin,0x42360620,45,"ArrayConcat"
+code-creation,Builtin,0x42360660,48,"HandleApiCall"
+code-creation,Builtin,0x423606a0,45,"FastHandleApiCall"
+code-creation,Builtin,0x423606e0,48,"HandleApiCallConstruct"
+code-creation,Builtin,0x42360720,45,"HandleApiCallAsFunction"
+code-creation,Builtin,0x42360760,45,"HandleApiCallAsConstructor"
+code-creation,Builtin,0x423607a0,45,"StrictArgumentsCallee"
+code-creation,Builtin,0x423607e0,45,"StrictArgumentsCaller"
+code-creation,Builtin,0x42360820,45,"StrictFunctionCaller"
+code-creation,Builtin,0x42360860,45,"StrictFunctionArguments"
+code-creation,Builtin,0x423608a0,140,"ArgumentsAdaptorTrampoline"
+code-creation,Builtin,0x42360940,87,"JSConstructCall"
+code-creation,Builtin,0x423609a0,500,"JSConstructStubCountdown"
+code-creation,Builtin,0x42360ba0,468,"JSConstructStubGeneric"
+code-creation,Builtin,0x42360d80,444,"JSConstructStubApi"
+code-creation,Builtin,0x42360f40,122,"JSEntryTrampoline"
+code-creation,Builtin,0x42360fc0,95,"JSConstructEntryTrampoline"
+code-creation,Builtin,0x42361020,67,"LazyCompile"
+code-creation,Builtin,0x42361080,67,"LazyRecompile"
+code-creation,Builtin,0x423610e0,111,"NotifyDeoptimized"
+code-creation,Builtin,0x42361160,111,"NotifyLazyDeoptimized"
+code-creation,Builtin,0x423611e0,59,"NotifyOSR"
+code-creation,Builtin,0x42361220,51,"LoadIC_Miss"
+code-creation,Builtin,0x42361260,51,"KeyedLoadIC_Miss"
+code-creation,Builtin,0x423612a0,52,"StoreIC_Miss"
+code-creation,Builtin,0x423612e0,52,"KeyedStoreIC_Miss"
+code-creation,Builtin,0x42361320,51,"LoadIC_Initialize"
+code-creation,Builtin,0x42361360,51,"LoadIC_PreMonomorphic"
+code-creation,Stub,0x423613a0,708,"StringDictionaryNegativeLookup"
+code-creation,Builtin,0x42361680,284,"LoadIC_Normal"
+code-creation,Builtin,0x423617a0,62,"LoadIC_ArrayLength"
+code-creation,Builtin,0x423617e0,65,"LoadIC_StringLength"
+code-creation,Builtin,0x42361840,109,"LoadIC_StringWrapperLength"
+code-creation,Builtin,0x423618c0,113,"LoadIC_FunctionPrototype"
+code-creation,Builtin,0x42361940,201,"LoadIC_Megamorphic"
+code-creation,Builtin,0x42361a20,51,"KeyedLoadIC_Initialize"
+code-creation,Builtin,0x42361a60,51,"KeyedLoadIC_PreMonomorphic"
+code-creation,Stub,0x42361aa0,708,"StringDictionaryNegativeLookup"
+code-creation,Builtin,0x42362020,651,"KeyedLoadIC_Generic"
+code-creation,Builtin,0x423622c0,439,"KeyedLoadIC_String"
+code-creation,Builtin,0x42362480,112,"KeyedLoadIC_IndexedInterceptor"
+code-creation,Builtin,0x42362500,52,"StoreIC_Initialize"
+code-creation,Builtin,0x42362540,117,"StoreIC_ArrayLength"
+code-creation,Stub,0x423625c0,708,"StringDictionaryNegativeLookup"
+code-creation,Builtin,0x423628a0,346,"StoreIC_Normal"
+code-creation,Builtin,0x42362a00,223,"StoreIC_Megamorphic"
+code-creation,Builtin,0x42362ae0,56,"StoreIC_GlobalProxy"
+code-creation,Builtin,0x42362b20,52,"StoreIC_Initialize_Strict"
+code-creation,Builtin,0x42362b60,117,"StoreIC_ArrayLength_Strict"
+code-creation,Builtin,0x42362be0,346,"StoreIC_Normal_Strict"
+code-creation,Builtin,0x42362d40,223,"StoreIC_Megamorphic_Strict"
+code-creation,Builtin,0x42362e20,56,"StoreIC_GlobalProxy_Strict"
+code-creation,Builtin,0x42362e60,52,"KeyedStoreIC_Initialize"
+code-creation,Builtin,0x42362ea0,216,"KeyedStoreIC_Generic"
+code-creation,Builtin,0x42362f80,52,"KeyedStoreIC_Initialize_Strict"
+code-creation,Builtin,0x42362fc0,216,"KeyedStoreIC_Generic_Strict"
+code-creation,Builtin,0x423630a0,290,"FunctionCall"
+code-creation,Builtin,0x423631e0,300,"FunctionApply"
+code-creation,Builtin,0x42363320,444,"ArrayCode"
+code-creation,Builtin,0x423634e0,448,"ArrayConstructCode"
+code-creation,Builtin,0x423636a0,322,"StringConstructCode"
+code-creation,Stub,0x42363800,44,"StackCheckStub"
+code-creation,Builtin,0x42363840,500,"OnStackReplacement"
+code-creation,Builtin,0x42363a40,67,"Return_DebugBreak"
+code-creation,Builtin,0x42363aa0,70,"ConstructCall_DebugBreak"
+code-creation,Builtin,0x42363b00,62,"StubNoRegisters_DebugBreak"
+code-creation,Builtin,0x42363b40,66,"LoadIC_DebugBreak"
+code-creation,Builtin,0x42363ba0,66,"KeyedLoadIC_DebugBreak"
+code-creation,Builtin,0x42363c00,68,"StoreIC_DebugBreak"
+code-creation,Builtin,0x42363c60,68,"KeyedStoreIC_DebugBreak"
+code-creation,Builtin,0x42363cc0,65,"Slot_DebugBreak"
+code-creation,Builtin,0x42363d20,33,"PlainReturn_LiveEdit"
+code-creation,Builtin,0x42363d60,61,"FrameDropper_LiveEdit"
+code-creation,Script,0x42363da0,452,"native runtime.js",0x423224f0,
+code-creation,CallInitialize,0x42364020,142,"args_count: 1"
+code-creation,CallInitialize,0x423640c0,142,"args_count: 1"
+code-creation,CallInitialize,0x42364160,142,"args_count: 2"
+code-creation,CallInitialize,0x42364200,142,"args_count: 2"
+code-creation,LazyCompile,0x423642a0,1528,"EQUALS native runtime.js:53",0x42321498,
+code-creation,LazyCompile,0x423648a0,276,"STRICT_EQUALS native runtime.js:99",0x423214f4,
+code-creation,Stub,0x423649c0,182,"StringCompare"
+code-creation,Stub,0x42364a80,76,"CompareIC"
+code-creation,LazyCompile,0x42364ae0,828,"COMPARE native runtime.js:119",0x42321550,
+code-creation,Stub,0x42364e20,1257,"StringAdd"
+code-creation,LazyCompile,0x42365320,500,"ADD native runtime.js:162",0x423215ac,
+code-creation,LazyCompile,0x42365520,200,"SUB native runtime.js:213",0x423216c0,
+code-creation,LazyCompile,0x42365600,200,"MUL native runtime.js:221",0x4232171c,
+code-creation,LazyCompile,0x423656e0,200,"DIV native runtime.js:229",0x42321778,
+code-creation,LazyCompile,0x423657c0,200,"MOD native runtime.js:237",0x423217d4,
+code-creation,LazyCompile,0x423658a0,200,"BIT_OR native runtime.js:251",0x42321830,
+code-creation,LazyCompile,0x42365980,288,"BIT_AND native runtime.js:259",0x4232188c,
+code-creation,LazyCompile,0x42365aa0,200,"BIT_XOR native runtime.js:281",0x423218e8,
+code-creation,LazyCompile,0x42365b80,148,"UNARY_MINUS native runtime.js:289",0x42321944,
+code-creation,LazyCompile,0x42365c20,148,"BIT_NOT native runtime.js:296",0x423219a0,
+code-creation,LazyCompile,0x42365cc0,200,"SHL native runtime.js:303",0x423219fc,
+code-creation,LazyCompile,0x42365da0,288,"SAR native runtime.js:311",0x42321a58,
+code-creation,LazyCompile,0x42365ec0,200,"SHR native runtime.js:333",0x42321ab4,
+code-creation,LazyCompile,0x42366020,132,"DELETE native runtime.js:347",0x42321b10,
+code-creation,Stub,0x423660c0,161,"FastCloneShallowArrayStub"
+code-creation,LazyCompile,0x42366180,336,"IN native runtime.js:353",0x42321b6c,
+code-creation,Stub,0x423662e0,155,"FastCloneShallowArrayStub"
+code-creation,Stub,0x42366380,114,"ToBoolean"
+code-creation,LazyCompile,0x42366400,500,"INSTANCE_OF native runtime.js:365",0x42321bc8,
+code-creation,LazyCompile,0x42366600,88,"GET_KEYS native runtime.js:389",0x42321c24,
+code-creation,LazyCompile,0x42366660,188,"FILTER_KEY native runtime.js:397",0x42321c80,
+code-creation,Stub,0x42366720,224,"ArgumentsAccessStub"
+code-creation,LazyCompile,0x42366800,288,"CALL_NON_FUNCTION native runtime.js:404",0x42321cdc,
+code-creation,LazyCompile,0x42366920,288,"CALL_NON_FUNCTION_AS_CONSTRUCTOR native runtime.js:413",0x42321d38,
+code-creation,LazyCompile,0x42366a40,92,"TO_OBJECT native runtime.js:464",0x42321e4c,
+code-creation,LazyCompile,0x42366aa0,92,"TO_NUMBER native runtime.js:470",0x42321ea8,
+code-creation,LazyCompile,0x42366b00,92,"TO_STRING native runtime.js:476",0x42321f04,
+code-creation,Stub,0x42366b60,76,"CompareIC"
+code-creation,Stub,0x42366bc0,163,"NumberToStringStub"
+code-creation,LazyCompile,0x42366c80,448,"STRING_ADD_LEFT native runtime.js:182",0x42321608,
+code-creation,LazyCompile,0x42366e40,460,"STRING_ADD_RIGHT native runtime.js:197",0x42321664,
+code-creation,Stub,0x42367020,76,"CompareIC"
+code-creation,Stub,0x42367080,76,"CompareIC"
+code-creation,Stub,0x423670e0,76,"CompareIC"
+code-creation,Stub,0x42367140,134,"FastCloneShallowArrayStub"
+code-creation,LazyCompile,0x423671e0,852,"APPLY_PREPARE native runtime.js:422",0x42321d94,
+code-creation,LazyCompile,0x42367540,124,"APPLY_OVERFLOW native runtime.js:458",0x42321df0,
+code-creation,CallInitialize,0x423675c0,142,"args_count: 0"
+code-creation,Script,0x42367660,2020,"native v8natives.js",0x42325298,
+code-creation,CallPreMonomorphic,0x42367e60,142,"args_count: 0"
+code-creation,CallInitialize,0x42367f00,142,"args_count: 12"
+code-creation,CallInitialize,0x42368020,142,"args_count: 3"
+code-creation,LazyCompile,0x423680c0,360,"SetupGlobal native v8natives.js:165",0x4232379c,
+code-creation,CallPreMonomorphic,0x42368240,142,"args_count: 12"
+code-creation,CallPreMonomorphic,0x423682e0,142,"args_count: 3"
+code-creation,Stub,0x42368380,60,"TypeRecordingBinaryOpStub_SAR_Alloc_Uninitialized"
+code-creation,Stub,0x423683c0,60,"TypeRecordingBinaryOpStub_ADD_Alloc_Uninitialized"
+code-creation,LazyCompile,0x42368400,440,"InstallFunctions native v8natives.js:49",0x423234bc,
+code-creation,Stub,0x423685c0,94,"CompareIC"
+code-creation,Stub,0x42368620,94,"TypeRecordingBinaryOpStub_SAR_Alloc_SMI"
+code-creation,Stub,0x42368680,94,"CompareIC"
+code-creation,KeyedLoadIC,0x423686e0,98,""
+code-creation,KeyedLoadIC,0x423686e0,98,"args_count: 0"
+code-creation,Stub,0x42368760,89,"TypeRecordingBinaryOpStub_ADD_Alloc_SMI"
+code-creation,LazyCompile,0x423687c0,204,"$Object.constructor native v8natives.js:193",0x42324a8c,
+code-creation,CallPreMonomorphic,0x423688a0,142,"args_count: 1"
+code-creation,LazyCompile,0x42368940,340,"ToBoolean native runtime.js:499",0x42322020,
+code-creation,StoreIC,0x42368aa0,116,"constructor"
+code-creation,StoreIC,0x42368aa0,116,"constructor"
+code-creation,LazyCompile,0x42368b20,280,"a native v8natives.js:948",0x423251bc,
+code-creation,CallInitialize,0x42368c40,142,"args_count: 20"
+code-creation,CallInitialize,0x42368ce0,142,"args_count: 26"
+code-creation,LazyCompile,0x42368d80,612,"SetupObject native v8natives.js:963",0x423244cc,
+code-creation,CallPreMonomorphic,0x42369000,142,"args_count: 20"
+code-creation,CallPreMonomorphic,0x423690a0,142,"args_count: 26"
+code-creation,CallInitialize,0x42369140,142,"args_count: 4"
+code-creation,LazyCompile,0x423691e0,164,"SetupBoolean native v8natives.js:1026",0x423245e0,
+code-creation,CallPreMonomorphic,0x423692a0,142,"args_count: 4"
+code-creation,LazyCompile,0x42369340,244,"b native v8natives.js:1039",0x42325218,
+code-creation,Stub,0x42369440,88,"CompareIC"
+code-creation,LazyCompile,0x423694a0,416,"ToNumber native runtime.js:509",0x4232207c,
+code-creation,LazyCompile,0x42369640,616,"SetupNumber native v8natives.js:1147",0x42324864,
+code-creation,Stub,0x423698c0,60,"TypeRecordingBinaryOpStub_SUB_Alloc_Uninitialized"
+code-creation,Stub,0x42369900,110,"ArgumentsAccessStub"
+code-creation,Stub,0x42369980,64,"ToNumberStub"
+code-creation,Stub,0x423699c0,60,"TypeRecordingBinaryOpStub_ADD_OverwriteLeft_Uninitialized"
+code-creation,Stub,0x42369a00,122,"CallFunction"
+code-creation,LazyCompile,0x42369a80,728,"NewFunction native v8natives.js:1289",0x423249d4,
+code-creation,LazyCompile,0x42369d60,164,"SetupFunction native v8natives.js:1315",0x42324a30,
+code-creation,Script,0x42369e20,168,"native array.js",0x4232714c,
+code-creation,Stub,0x42369ee0,137,"FastNewContextStub"
+code-creation,Function,0x4236a020,244,"getFunction native array.js:1309",0x42327868,
+code-creation,Stub,0x4236a120,155,"FastNewClosureStub"
+code-creation,Stub,0x4236a1c0,125,"CallFunction"
+code-creation,Stub,0x4236a240,125,"CallFunction"
+code-creation,CallInitialize,0x4236a2c0,151,"args_count: 42"
+code-creation,Function,0x4236a360,92,"SetupArray.InternalArray.toString native array.js:1360",0x423278e4,
+code-creation,LazyCompile,0x4236a3c0,1692,"SetupArray native array.js:1297",0x423270cc,
+code-creation,CallPreMonomorphic,0x4236aa60,142,"args_count: 2"
+code-creation,LazyCompile,0x4236ab00,196,"hasOwnProperty native v8natives.js:237",0x4232390c,
+code-creation,CallMiss,0x4236abe0,142,"args_count: 1"
+code-creation,CallIC,0x4236ac80,94,"hasOwnProperty"
+code-creation,KeyedLoadIC,0x4236ace0,76,"push"
+code-creation,KeyedLoadIC,0x4236ace0,76,"push"
+code-creation,KeyedLoadIC,0x4236ad40,76,"concat"
+code-creation,KeyedLoadIC,0x4236ad40,76,"concat"
+code-creation,CallPreMonomorphic,0x4236ada0,151,"args_count: 42"
+code-creation,LazyCompile,0x4236ae40,144,"InstallFunctionsOnHiddenPrototype native v8natives.js:68",0x42323518,
+code-creation,Stub,0x4236aee0,134,"FastCloneShallowArrayStub"
+code-creation,Script,0x4236af80,640,"native string.js",0x42329368,
+code-creation,LazyCompile,0x4236b200,288,"b native string.js:36",0x423291d4,
+code-creation,CallInitialize,0x4236b320,151,"args_count: 70"
+code-creation,LazyCompile,0x4236b3c0,920,"SetupString native string.js:942",0x42329178,
+code-creation,CallPreMonomorphic,0x4236b760,151,"args_count: 70"
+code-creation,LoadIC,0x4236b800,61,"$Object"
+code-creation,LoadIC,0x4236b800,61,"$Object"
+code-creation,CallMiss,0x4236b840,142,"args_count: 3"
+code-creation,CallIC,0x4236b8e0,89,"InstallFunctions"
+code-creation,Script,0x4236b940,168,"native uri.js",0x4232a54c,
+code-creation,LazyCompile,0x4236ba00,228,"SetupURI native uri.js:395",0x4232a4cc,
+code-creation,Script,0x4236bb00,408,"native math.js",0x4232b10c,
+code-creation,LazyCompile,0x4236bca0,68,"MathConstructor native math.js:38",0x4232a9b8,
+code-creation,CallInitialize,0x4236bd00,151,"args_count: 36"
+code-creation,LazyCompile,0x4236c020,844,"SetupMath native math.js:198",0x4232b08c,
+code-creation,CallPreMonomorphic,0x4236c380,151,"args_count: 36"
+code-creation,Script,0x4236c420,2900,"native messages.js",0x4232db24,
+code-creation,LazyCompile,0x4236cf80,116,"kMessages.cyclic_proto native messages.js:133",0x4232cf24,
+code-creation,Function,0x4236d000,68,"ErrorPrototype native messages.js:985",0x4232e590,
+code-creation,Function,0x4236d060,128," native messages.js:1011",0x4232e610,
+code-creation,Function,0x4236d0e0,380," native messages.js:1000",0x4232e690,
+code-creation,LazyCompile,0x4236d260,544,"DefineError native messages.js:969",0x4232cdb4,
+code-creation,Stub,0x4236d480,1214,"StringAdd"
+code-creation,Stub,0x4236d940,112,"TypeRecordingBinaryOpStub_ADD_Alloc_BothStrings"
+code-creation,Stub,0x4236d9c0,113,"CompareIC"
+code-creation,LoadIC,0x4236da40,61,"global"
+code-creation,LoadIC,0x4236da40,61,"global"
+code-creation,Stub,0x4236da80,484,"CompareStub_EQ_STRICT"
+code-creation,Function,0x4236dc80,92," native messages.js:1032",0x4232e744,
+code-creation,LazyCompile,0x4236dce0,452,"captureStackTrace native messages.js:1024",0x4232ce10,
+code-creation,LoadIC,0x4236dec0,73,"$Error"
+code-creation,LoadIC,0x4236dec0,73,"$Error"
+code-creation,LoadIC,0x4236df20,61,"kAddMessageAccessorsMarker"
+code-creation,LoadIC,0x4236df20,61,"kAddMessageAccessorsMarker"
+code-creation,CallMiss,0x4236df60,142,"args_count: 2"
+code-creation,CallIC,0x4236e020,89,"captureStackTrace"
+code-creation,LoadIC,0x4236e080,100,""
+code-creation,LoadIC,0x4236e080,100,""
+code-creation,LazyCompile,0x4236e100,104,"MakeRangeError native messages.js:278",0x4232c850,
+code-creation,LazyCompile,0x4236e180,204,"MakeGenericError native messages.js:117",0x4232c684,
+code-creation,Stub,0x4236e260,146,"FastNewContextStub"
+code-creation,Stub,0x4236e300,125,"CallFunction"
+code-creation,Function,0x4236e380,288,"DefineOneShotAccessor.a.__defineSetter__.d native messages.js:684",0x4232e858,
+code-creation,Function,0x4236e4a0,176," native messages.js:692",0x4232e8d8,
+code-creation,LazyCompile,0x4236e560,292,"DefineOneShotAccessor native messages.js:678",0x4232cb8c,
+code-creation,LazyCompile,0x4236e6a0,420,"__defineGetter__ native v8natives.js:260",0x42323a20,
+code-creation,LazyCompile,0x4236e860,296,"PropertyDescriptor native v8natives.js:401",0x42323e14,
+code-creation,LazyCompile,0x4236e9a0,104,"PropertyDescriptor.setGet native v8natives.js:487",0x42324f94,
+code-creation,StoreIC,0x4236ea20,113,"get_"
+code-creation,StoreIC,0x4236ea20,113,"get_"
+code-creation,StoreIC,0x4236eaa0,113,"hasGetter_"
+code-creation,StoreIC,0x4236eaa0,113,"hasGetter_"
+code-creation,LazyCompile,0x4236eb20,104,"PropertyDescriptor.setEnumerable native v8natives.js:439",0x42324c58,
+code-creation,StoreIC,0x4236eba0,113,"enumerable_"
+code-creation,StoreIC,0x4236eba0,113,"enumerable_"
+code-creation,StoreIC,0x4236ec20,113,"hasEnumerable_"
+code-creation,StoreIC,0x4236ec20,113,"hasEnumerable_"
+code-creation,LazyCompile,0x4236eca0,104,"PropertyDescriptor.setConfigurable native v8natives.js:471",0x42324e80,
+code-creation,StoreIC,0x4236ed20,113,"configurable_"
+code-creation,StoreIC,0x4236ed20,113,"configurable_"
+code-creation,StoreIC,0x4236eda0,113,"hasConfigurable_"
+code-creation,StoreIC,0x4236eda0,113,"hasConfigurable_"
+code-creation,LazyCompile,0x4236ee20,396,"ToObject native runtime.js:549",0x423221ec,
+code-creation,LazyCompile,0x4236efc0,372,"ToString native runtime.js:532",0x42322134,
+code-creation,Stub,0x4236f140,60,"TypeRecordingBinaryOpStub_BIT_OR_Alloc_Uninitialized"
+code-creation,LazyCompile,0x42370020,6212,"DefineOwnProperty native v8natives.js:579",0x42324020,
+code-creation,LazyCompile,0x42371880,464,"ConvertDescriptorArrayToDescriptor native v8natives.js:522",0x42323e70,
+code-creation,LazyCompile,0x42371a60,80,"PropertyDescriptor.hasEnumerable native v8natives.js:450",0x42324d10,
+code-creation,LazyCompile,0x42371ac0,80,"PropertyDescriptor.isEnumerable native v8natives.js:445",0x42324cb4,
+code-creation,Stub,0x42371b20,84,"TypeRecordingBinaryOpStub_BIT_OR_Alloc_SMI"
+code-creation,LazyCompile,0x42371b80,80,"PropertyDescriptor.hasConfigurable native v8natives.js:477",0x42324edc,
+code-creation,LazyCompile,0x42371be0,80,"PropertyDescriptor.isConfigurable native v8natives.js:482",0x42324f38,
+code-creation,LazyCompile,0x42371c40,212,"IsDataDescriptor native v8natives.js:322",0x42323c48,
+code-creation,LazyCompile,0x42371d20,244,"IsGenericDescriptor native v8natives.js:329",0x42323ca4,
+code-creation,LazyCompile,0x42371e20,212,"IsAccessorDescriptor native v8natives.js:315",0x42323bec,
+code-creation,CallIC,0x42371f00,89,"IsAccessorDescriptor"
+code-creation,LoadIC,0x42371f60,62,"hasGetter_"
+code-creation,LoadIC,0x42371f60,62,"hasGetter_"
+code-creation,LazyCompile,0x42371fa0,80,"PropertyDescriptor.hasGetter native v8natives.js:498",0x4232504c,
+code-creation,LazyCompile,0x42372020,80,"PropertyDescriptor.getGet native v8natives.js:493",0x42324ff0,
+code-creation,LazyCompile,0x42372080,80,"PropertyDescriptor.hasSetter native v8natives.js:514",0x42325160,
+code-creation,LazyCompile,0x423720e0,420,"__defineSetter__ native v8natives.js:283",0x42323ad8,
+code-creation,StoreIC,0x423722a0,120,"value_"
+code-creation,StoreIC,0x423722a0,120,"value_"
+code-creation,StoreIC,0x42372320,120,"hasValue_"
+code-creation,StoreIC,0x42372320,120,"hasValue_"
+code-creation,StoreIC,0x423723a0,120,"writable_"
+code-creation,StoreIC,0x423723a0,120,"writable_"
+code-creation,StoreIC,0x42372420,120,"hasWritable_"
+code-creation,StoreIC,0x42372420,120,"hasWritable_"
+code-creation,StoreIC,0x423724a0,120,"enumerable_"
+code-creation,StoreIC,0x423724a0,120,"enumerable_"
+code-creation,StoreIC,0x42372520,120,"hasEnumerable_"
+code-creation,StoreIC,0x42372520,120,"hasEnumerable_"
+code-creation,StoreIC,0x423725a0,120,"configurable_"
+code-creation,StoreIC,0x423725a0,120,"configurable_"
+code-creation,StoreIC,0x42372620,120,"hasConfigurable_"
+code-creation,StoreIC,0x42372620,120,"hasConfigurable_"
+code-creation,StoreIC,0x423726a0,120,"get_"
+code-creation,StoreIC,0x423726a0,120,"get_"
+code-creation,StoreIC,0x42372720,120,"hasGetter_"
+code-creation,StoreIC,0x42372720,120,"hasGetter_"
+code-creation,StoreIC,0x423727a0,120,"set_"
+code-creation,StoreIC,0x423727a0,120,"set_"
+code-creation,StoreIC,0x42372820,120,"hasSetter_"
+code-creation,StoreIC,0x42372820,120,"hasSetter_"
+code-creation,LazyCompile,0x423728a0,104,"PropertyDescriptor.setSet native v8natives.js:503",0x423250a8,
+code-creation,StoreIC,0x42372920,113,"set_"
+code-creation,StoreIC,0x42372920,113,"set_"
+code-creation,StoreIC,0x423729a0,113,"hasSetter_"
+code-creation,StoreIC,0x423729a0,113,"hasSetter_"
+code-creation,CallIC,0x42372a20,89,"ToObject"
+code-creation,CallIC,0x42372a80,89,"ToString"
+code-creation,CallIC,0x42372ae0,89,"ConvertDescriptorArrayToDescriptor"
+code-creation,LoadIC,0x42372b40,62,"hasValue_"
+code-creation,LoadIC,0x42372b40,62,"hasValue_"
+code-creation,LoadIC,0x42372b80,62,"hasWritable_"
+code-creation,LoadIC,0x42372b80,62,"hasWritable_"
+code-creation,Stub,0x42372bc0,456,"CompareStub_EQ"
+code-creation,LoadIC,0x42372da0,62,"hasEnumerable_"
+code-creation,LoadIC,0x42372da0,62,"hasEnumerable_"
+code-creation,LoadIC,0x42372de0,62,"enumerable_"
+code-creation,LoadIC,0x42372de0,62,"enumerable_"
+code-creation,Stub,0x42372e20,60,"TypeRecordingBinaryOpStub_DIV_Alloc_Uninitialized"
+code-creation,LazyCompile,0x42372e60,352,"SameValue native runtime.js:582",0x4232235c,
+code-creation,LoadIC,0x42372fc0,62,"hasConfigurable_"
+code-creation,LoadIC,0x42372fc0,62,"hasConfigurable_"
+code-creation,LoadIC,0x42373000,62,"configurable_"
+code-creation,LoadIC,0x42373000,62,"configurable_"
+code-creation,LazyCompile,0x42373040,80,"PropertyDescriptor.hasWritable native v8natives.js:466",0x42324e24,
+code-creation,LazyCompile,0x423730a0,80,"PropertyDescriptor.hasValue native v8natives.js:434",0x42324bfc,
+code-creation,LoadIC,0x42373100,62,"hasSetter_"
+code-creation,LoadIC,0x42373100,62,"hasSetter_"
+code-creation,LazyCompile,0x42373140,80,"PropertyDescriptor.getSet native v8natives.js:509",0x42325104,
+code-creation,LoadIC,0x423731a0,62,"set_"
+code-creation,LoadIC,0x423731a0,62,"set_"
+code-creation,CallMiss,0x423731e0,142,"args_count: 0"
+code-creation,CallIC,0x42373280,93,"hasEnumerable"
+code-creation,CallIC,0x423732e0,93,"isEnumerable"
+code-creation,CallIC,0x42373340,93,"hasConfigurable"
+code-creation,CallIC,0x423733a0,93,"isConfigurable"
+code-creation,CallIC,0x42373400,89,"IsDataDescriptor"
+code-creation,CallIC,0x42373460,89,"IsGenericDescriptor"
+code-creation,CallIC,0x423734c0,93,"hasGetter"
+code-creation,CallIC,0x42373520,93,"hasSetter"
+code-creation,LoadIC,0x42373580,100,""
+code-creation,LoadIC,0x42373580,100,""
+code-creation,StoreIC,0x42373600,116,"type"
+code-creation,StoreIC,0x42373600,116,"type"
+code-creation,StoreIC,0x42373680,116,"arguments"
+code-creation,StoreIC,0x42373680,116,"arguments"
+code-creation,Script,0x42373700,176,"native apinatives.js",0x4232f028,
+code-creation,Stub,0x423737c0,167,"FastCloneShallowArrayStub"
+code-creation,Script,0x42373880,1052,"native date.js",0x423313ac,
+code-creation,StoreIC,0x42373ca0,113,"time"
+code-creation,StoreIC,0x42373ca0,113,"time"
+code-creation,StoreIC,0x42373d20,113,"year"
+code-creation,StoreIC,0x42373d20,113,"year"
+code-creation,Stub,0x42373da0,76,"CompareIC"
+code-creation,LazyCompile,0x42374020,1416,"WeekDays native date.js:398",0x4233132c,
+code-creation,LazyCompile,0x423745c0,276,"TimeClip native date.js:378",0x4232fdd0,
+code-creation,LazyCompile,0x423746e0,252,"isFinite native v8natives.js:86",0x423235d0,
+code-creation,Stub,0x423747e0,213,"TypeRecordingBinaryOpStub_SUB_Alloc_HeapNumbers"
+code-creation,Stub,0x423748c0,108,"CompareIC"
+code-creation,CallInitialize,0x42374940,142,"args_count: 6"
+code-creation,CallInitialize,0x423749e0,151,"args_count: 92"
+code-creation,LazyCompile,0x42374a80,1164,"SetupDate native date.js:1040",0x423312d0,
+code-creation,CallPreMonomorphic,0x42374f20,142,"args_count: 6"
+code-creation,CallPreMonomorphic,0x42374fc0,151,"args_count: 92"
+code-creation,Script,0x42375060,168,"native json.js",0x4233254c,
+code-creation,LazyCompile,0x42375120,152,"SetupJSON native json.js:335",0x423324cc,
+code-creation,Script,0x423751c0,304,"native regexp.js",0x42332e50,
+code-creation,Function,0x42375300,152,"RegExpGetInput native regexp.js:422",0x42333154,
+code-creation,Function,0x423753a0,108,"RegExpSetInput native regexp.js:426",0x423331d4,
+code-creation,Function,0x42375420,72,"RegExpGetMultiline native regexp.js:446",0x42333250,
+code-creation,Function,0x42375480,196,"RegExpSetMultiline native regexp.js:447",0x423332d0,
+code-creation,Function,0x42375560,68,"NoOpSetter native regexp.js:455",0x42333350,
+code-creation,CallInitialize,0x423755c0,142,"args_count: 8"
+code-creation,LazyCompile,0x42375660,2020,"SetupRegExp native regexp.js:403",0x42332dd0,
+code-creation,LazyCompile,0x42375e60,224,"RegExpConstructor native regexp.js:81",0x42332924,
+code-creation,CallPreMonomorphic,0x42375f40,142,"args_count: 8"
+code-creation,Stub,0x42376020,1407,"StringAdd"
+code-creation,Stub,0x423765a0,1407,"StringAdd"
+code-creation,Stub,0x42376b20,105,"TypeRecordingBinaryOpStub_ADD_Alloc_Strings"
+code-creation,LazyCompile,0x42376ba0,360,"ToPrimitive native runtime.js:488",0x42321f60,
+code-creation,CallPreMonomorphic,0x42376d20,142,"args_count: 1"
+code-creation,Stub,0x42376dc0,60,"TypeRecordingBinaryOpStub_MUL_Alloc_Uninitialized"
+code-creation,Stub,0x42376e00,60,"TypeRecordingBinaryOpStub_ADD_OverwriteRight_Uninitialized"
+code-creation,Function,0x42376e40,500," native regexp.js:366",0x42333538,
+code-creation,LazyCompile,0x42377040,136,"RegExpMakeCaptureGetter native regexp.js:365",0x42332d74,
+code-creation,CallIC,0x423770e0,89,"ToPrimitive"
+code-creation,LoadIC,0x42377140,61,"$RegExp"
+code-creation,LoadIC,0x42377140,61,"$RegExp"
+code-creation,CallIC,0x42377180,89,"RegExpMakeCaptureGetter"
+code-delete,0x423686e0
+code-delete,0x42368aa0
+code-delete,0x4236ac80
+code-delete,0x4236ace0
+code-delete,0x4236ad40
+code-delete,0x4236b800
+code-delete,0x4236b8e0
+code-delete,0x4236da40
+code-delete,0x4236dec0
+code-delete,0x4236df20
+code-delete,0x4236e020
+code-delete,0x4236e080
+code-delete,0x4236ea20
+code-delete,0x4236eaa0
+code-delete,0x4236eba0
+code-delete,0x4236ec20
+code-delete,0x4236ed20
+code-delete,0x4236eda0
+code-delete,0x42371f00
+code-delete,0x42371f60
+code-delete,0x423722a0
+code-delete,0x42372320
+code-delete,0x423723a0
+code-delete,0x42372420
+code-delete,0x423724a0
+code-delete,0x42372520
+code-delete,0x423725a0
+code-delete,0x42372620
+code-delete,0x423726a0
+code-delete,0x42372720
+code-delete,0x423727a0
+code-delete,0x42372820
+code-delete,0x42372920
+code-delete,0x423729a0
+code-delete,0x42372a20
+code-delete,0x42372a80
+code-delete,0x42372ae0
+code-delete,0x42372b40
+code-delete,0x42372b80
+code-delete,0x42372da0
+code-delete,0x42372de0
+code-delete,0x42372fc0
+code-delete,0x42373000
+code-delete,0x42373100
+code-delete,0x423731a0
+code-delete,0x42373280
+code-delete,0x423732e0
+code-delete,0x42373340
+code-delete,0x423733a0
+code-delete,0x42373400
+code-delete,0x42373460
+code-delete,0x423734c0
+code-delete,0x42373520
+code-delete,0x42373580
+code-delete,0x42373600
+code-delete,0x42373680
+code-delete,0x42373ca0
+code-delete,0x42373d20
+code-delete,0x423770e0
+code-delete,0x42377140
+code-delete,0x42377180
+sfi-move,0x42320228,0x42320228
+sfi-move,0x423202b4,0x423202b4
+sfi-move,0x4232038c,0x4232038c
+sfi-move,0x4232040c,0x4232040c
+sfi-move,0x4232048c,0x4232048c
+sfi-move,0x42320524,0x42320524
+sfi-move,0x423205b4,0x423205b4
+sfi-move,0x42320634,0x42320634
+sfi-move,0x423206b4,0x423206b4
+sfi-move,0x42320734,0x42320734
+sfi-move,0x423207b4,0x423207b4
+sfi-move,0x42320834,0x42320834
+sfi-move,0x423208b4,0x423208b4
+sfi-move,0x42320934,0x42320934
+sfi-move,0x423209c0,0x423209c0
+sfi-move,0x42320a60,0x42320a60
+sfi-move,0x42320ae0,0x42320ae0
+sfi-move,0x42320b60,0x42320b60
+sfi-move,0x42320be0,0x42320be0
+sfi-move,0x42320c60,0x42320c60
+sfi-move,0x42320e8c,0x42320e8c
+sfi-move,0x42321014,0x42321014
+sfi-move,0x42321094,0x42321094
+sfi-move,0x42321158,0x42321158
+sfi-move,0x423211e4,0x423211e4
+sfi-move,0x42321498,0x42321448
+sfi-move,0x423214f4,0x423214a4
+sfi-move,0x42321550,0x42321500
+sfi-move,0x423215ac,0x4232155c
+sfi-move,0x42321608,0x423215b8
+sfi-move,0x42321664,0x42321614
+sfi-move,0x423216c0,0x42321670
+sfi-move,0x4232171c,0x423216cc
+sfi-move,0x42321778,0x42321728
+sfi-move,0x423217d4,0x42321784
+sfi-move,0x42321830,0x423217e0
+sfi-move,0x4232188c,0x4232183c
+sfi-move,0x423218e8,0x42321898
+sfi-move,0x42321944,0x423218f4
+sfi-move,0x423219a0,0x42321950
+sfi-move,0x423219fc,0x423219ac
+sfi-move,0x42321a58,0x42321a08
+sfi-move,0x42321ab4,0x42321a64
+sfi-move,0x42321b10,0x42321ac0
+sfi-move,0x42321b6c,0x42321b1c
+sfi-move,0x42321bc8,0x42321b78
+sfi-move,0x42321c24,0x42321bd4
+sfi-move,0x42321c80,0x42321c30
+sfi-move,0x42321cdc,0x42321c8c
+sfi-move,0x42321d38,0x42321ce8
+sfi-move,0x42321d94,0x42321d44
+sfi-move,0x42321df0,0x42321da0
+sfi-move,0x42321e4c,0x42321dfc
+sfi-move,0x42321ea8,0x42321e58
+sfi-move,0x42321f04,0x42321eb4
+sfi-move,0x42321f60,0x42321f10
+sfi-move,0x42322020,0x42321f6c
+sfi-move,0x4232207c,0x42322020
+sfi-move,0x423220d8,0x4232207c
+sfi-move,0x42322134,0x423220d8
+sfi-move,0x42322190,0x42322134
+sfi-move,0x423221ec,0x42322190
+sfi-move,0x42322248,0x423221ec
+sfi-move,0x423222a4,0x42322248
+sfi-move,0x42322300,0x423222a4
+sfi-move,0x4232235c,0x42322300
+sfi-move,0x423223b8,0x4232235c
+sfi-move,0x42322414,0x423223b8
+sfi-move,0x42322470,0x42322414
+sfi-move,0x423224f0,0x42322494
+sfi-move,0x423234bc,0x423232d4
+sfi-move,0x42323518,0x42323330
+sfi-move,0x42323574,0x4232338c
+sfi-move,0x423235d0,0x423233e8
+sfi-move,0x4232362c,0x42323444
+sfi-move,0x42323688,0x423234a0
+sfi-move,0x423236e4,0x423234fc
+sfi-move,0x42323740,0x42323558
+sfi-move,0x4232379c,0x423235b4
+sfi-move,0x423237f8,0x42323610
+sfi-move,0x42323854,0x4232366c
+sfi-move,0x423238b0,0x423236c8
+sfi-move,0x4232390c,0x42323724
+sfi-move,0x42323968,0x42323780
+sfi-move,0x423239c4,0x423237dc
+sfi-move,0x42323a20,0x42323838
+sfi-move,0x42323a7c,0x42323894
+sfi-move,0x42323ad8,0x423238f0
+sfi-move,0x42323b34,0x4232394c
+sfi-move,0x42323b90,0x423239a8
+sfi-move,0x42323bec,0x42323a04
+sfi-move,0x42323c48,0x42323a60
+sfi-move,0x42323ca4,0x42323abc
+sfi-move,0x42323d00,0x42323b18
+sfi-move,0x42323d5c,0x42323b74
+sfi-move,0x42323db8,0x42323bd0
+sfi-move,0x42323e14,0x42323c2c
+sfi-move,0x42323e70,0x42323c88
+sfi-move,0x42323ecc,0x42323ce4
+sfi-move,0x42323f28,0x42323d40
+sfi-move,0x42323f84,0x42323d9c
+sfi-move,0x42324020,0x42323df8
+sfi-move,0x4232407c,0x42323e54
+sfi-move,0x423240d8,0x42323eb0
+sfi-move,0x42324134,0x42323f0c
+sfi-move,0x42324190,0x42323f68
+sfi-move,0x423241ec,0x42324020
+sfi-move,0x42324248,0x4232407c
+sfi-move,0x423242a4,0x423240d8
+sfi-move,0x42324300,0x42324134
+sfi-move,0x4232435c,0x42324190
+sfi-move,0x423243b8,0x423241ec
+sfi-move,0x42324414,0x42324248
+sfi-move,0x42324470,0x423242a4
+sfi-move,0x423244cc,0x42324300
+sfi-move,0x42324528,0x4232435c
+sfi-move,0x42324584,0x423243b8
+sfi-move,0x423245e0,0x42324414
+sfi-move,0x4232463c,0x42324470
+sfi-move,0x42324698,0x423244cc
+sfi-move,0x423246f4,0x42324528
+sfi-move,0x42324750,0x42324584
+sfi-move,0x423247ac,0x423245e0
+sfi-move,0x42324808,0x4232463c
+sfi-move,0x42324864,0x42324698
+sfi-move,0x423248c0,0x423246f4
+sfi-move,0x4232491c,0x42324750
+sfi-move,0x42324978,0x423247ac
+sfi-move,0x423249d4,0x42324808
+sfi-move,0x42324a30,0x42324864
+sfi-move,0x42324a8c,0x423248c0
+sfi-move,0x42324ae8,0x4232491c
+sfi-move,0x42324b44,0x42324978
+sfi-move,0x42324ba0,0x423249d4
+sfi-move,0x42324bfc,0x42324a30
+sfi-move,0x42324c58,0x42324a8c
+sfi-move,0x42324cb4,0x42324ae8
+sfi-move,0x42324d10,0x42324b44
+sfi-move,0x42324d6c,0x42324ba0
+sfi-move,0x42324dc8,0x42324bfc
+sfi-move,0x42324e24,0x42324c58
+sfi-move,0x42324e80,0x42324cb4
+sfi-move,0x42324edc,0x42324d10
+sfi-move,0x42324f38,0x42324d6c
+sfi-move,0x42324f94,0x42324dc8
+sfi-move,0x42324ff0,0x42324e24
+sfi-move,0x4232504c,0x42324e80
+sfi-move,0x423250a8,0x42324edc
+sfi-move,0x42325104,0x42324f38
+sfi-move,0x42325160,0x42324f94
+sfi-move,0x423251bc,0x42324ff0
+sfi-move,0x42325218,0x4232504c
+sfi-move,0x42325298,0x423250cc
+sfi-move,0x42326494,0x42326180
+sfi-move,0x423264f0,0x423261dc
+sfi-move,0x4232654c,0x42326238
+sfi-move,0x423265a8,0x42326294
+sfi-move,0x42326604,0x423262f0
+sfi-move,0x42326660,0x4232634c
+sfi-move,0x423266bc,0x423263a8
+sfi-move,0x42326718,0x42326404
+sfi-move,0x42326774,0x42326460
+sfi-move,0x423267d0,0x423264bc
+sfi-move,0x4232682c,0x42326518
+sfi-move,0x42326888,0x42326574
+sfi-move,0x423268e4,0x423265d0
+sfi-move,0x42326940,0x4232662c
+sfi-move,0x4232699c,0x42326688
+sfi-move,0x423269f8,0x423266e4
+sfi-move,0x42326a54,0x42326740
+sfi-move,0x42326ab0,0x4232679c
+sfi-move,0x42326b0c,0x423267f8
+sfi-move,0x42326b68,0x42326854
+sfi-move,0x42326bc4,0x423268b0
+sfi-move,0x42326c20,0x4232690c
+sfi-move,0x42326c7c,0x42326968
+sfi-move,0x42326cd8,0x423269c4
+sfi-move,0x42326d34,0x42326a20
+sfi-move,0x42326d90,0x42326a7c
+sfi-move,0x42326dec,0x42326ad8
+sfi-move,0x42326e48,0x42326b34
+sfi-move,0x42326ea4,0x42326b90
+sfi-move,0x42326f00,0x42326bec
+sfi-move,0x42326f5c,0x42326c48
+sfi-move,0x42326fb8,0x42326ca4
+sfi-move,0x42327014,0x42326d00
+sfi-move,0x42327070,0x42326d5c
+sfi-move,0x423270cc,0x42326db8
+sfi-move,0x4232714c,0x42326e38
+sfi-move,0x42327868,0x42327530
+sfi-move,0x423278e4,0x423275ac
+sfi-move,0x4232796c,0x42327634
+sfi-move,0x423279ec,0x423276b4
+sfi-move,0x42327a6c,0x42327734
+sfi-move,0x42327aec,0x423277b4
+sfi-move,0x42327b6c,0x42327834
+sfi-move,0x42327bec,0x423278b4
+sfi-move,0x42327c6c,0x42327934
+sfi-move,0x423281a8,0x42327c08
+sfi-move,0x42328204,0x42327c64
+sfi-move,0x42328260,0x42327cc0
+sfi-move,0x423282bc,0x42327d1c
+sfi-move,0x42328318,0x42327d78
+sfi-move,0x42328374,0x42327dd4
+sfi-move,0x423283d0,0x42327e30
+sfi-move,0x4232842c,0x42327e8c
+sfi-move,0x42328488,0x42327ee8
+sfi-move,0x423284e4,0x42327f44
+sfi-move,0x42328540,0x42327fa0
+sfi-move,0x4232859c,0x42328020
+sfi-move,0x423285f8,0x4232807c
+sfi-move,0x42328654,0x423280d8
+sfi-move,0x423286b0,0x42328134
+sfi-move,0x4232870c,0x42328190
+sfi-move,0x42328768,0x423281ec
+sfi-move,0x423287c4,0x42328248
+sfi-move,0x42328820,0x423282a4
+sfi-move,0x4232887c,0x42328300
+sfi-move,0x423288d8,0x4232835c
+sfi-move,0x42328934,0x423283b8
+sfi-move,0x42328990,0x42328414
+sfi-move,0x423289ec,0x42328470
+sfi-move,0x42328a48,0x423284cc
+sfi-move,0x42328aa4,0x42328528
+sfi-move,0x42328b00,0x42328584
+sfi-move,0x42328b5c,0x423285e0
+sfi-move,0x42328bb8,0x4232863c
+sfi-move,0x42328c14,0x42328698
+sfi-move,0x42328c70,0x423286f4
+sfi-move,0x42328ccc,0x42328750
+sfi-move,0x42328d28,0x423287ac
+sfi-move,0x42328d84,0x42328808
+sfi-move,0x42328de0,0x42328864
+sfi-move,0x42328e3c,0x423288c0
+sfi-move,0x42328e98,0x4232891c
+sfi-move,0x42328ef4,0x42328978
+sfi-move,0x42328f50,0x423289d4
+sfi-move,0x42328fac,0x42328a30
+sfi-move,0x42329008,0x42328a8c
+sfi-move,0x42329064,0x42328ae8
+sfi-move,0x423290c0,0x42328b44
+sfi-move,0x4232911c,0x42328ba0
+sfi-move,0x42329178,0x42328bfc
+sfi-move,0x423291d4,0x42328c58
+sfi-move,0x42329230,0x42328cb4
+sfi-move,0x4232928c,0x42328d10
+sfi-move,0x423292e8,0x42328d6c
+sfi-move,0x42329368,0x42328dec
+sfi-move,0x42329e00,0x423297b4
+sfi-move,0x42329e5c,0x42329810
+sfi-move,0x42329eb8,0x4232986c
+sfi-move,0x42329f14,0x423298c8
+sfi-move,0x42329f70,0x42329924
+sfi-move,0x4232a020,0x42329980
+sfi-move,0x4232a07c,0x423299dc
+sfi-move,0x4232a0d8,0x42329a38
+sfi-move,0x4232a134,0x42329a94
+sfi-move,0x4232a190,0x42329af0
+sfi-move,0x4232a1ec,0x42329b4c
+sfi-move,0x4232a248,0x42329ba8
+sfi-move,0x4232a2a4,0x42329c04
+sfi-move,0x4232a300,0x42329c60
+sfi-move,0x4232a35c,0x42329cbc
+sfi-move,0x4232a3b8,0x42329d18
+sfi-move,0x4232a414,0x42329d74
+sfi-move,0x4232a470,0x42329dd0
+sfi-move,0x4232a4cc,0x42329e2c
+sfi-move,0x4232a54c,0x42329eac
+sfi-move,0x4232a9b8,0x4232a324
+sfi-move,0x4232aa14,0x4232a380
+sfi-move,0x4232aa70,0x4232a3dc
+sfi-move,0x4232aacc,0x4232a438
+sfi-move,0x4232ab28,0x4232a494
+sfi-move,0x4232ab84,0x4232a4f0
+sfi-move,0x4232abe0,0x4232a54c
+sfi-move,0x4232ac3c,0x4232a5a8
+sfi-move,0x4232ac98,0x4232a604
+sfi-move,0x4232acf4,0x4232a660
+sfi-move,0x4232ad50,0x4232a6bc
+sfi-move,0x4232adac,0x4232a718
+sfi-move,0x4232ae08,0x4232a774
+sfi-move,0x4232ae64,0x4232a7d0
+sfi-move,0x4232aec0,0x4232a82c
+sfi-move,0x4232af1c,0x4232a888
+sfi-move,0x4232af78,0x4232a8e4
+sfi-move,0x4232afd4,0x4232a940
+sfi-move,0x4232b030,0x4232a99c
+sfi-move,0x4232b08c,0x4232a9f8
+sfi-move,0x4232b10c,0x4232aa78
+sfi-move,0x4232c514,0x4232af9c
+sfi-move,0x4232c570,0x4232aff8
+sfi-move,0x4232c5cc,0x4232b054
+sfi-move,0x4232c628,0x4232b0b0
+sfi-move,0x4232c684,0x4232b10c
+sfi-move,0x4232c6e0,0x4232b168
+sfi-move,0x4232c73c,0x4232b1c4
+sfi-move,0x4232c798,0x4232b220
+sfi-move,0x4232c7f4,0x4232b27c
+sfi-move,0x4232c850,0x4232b2d8
+sfi-move,0x4232c8ac,0x4232b334
+sfi-move,0x4232c908,0x4232b390
+sfi-move,0x4232c964,0x4232b3ec
+sfi-move,0x4232c9c0,0x4232b448
+sfi-move,0x4232ca1c,0x4232b4a4
+sfi-move,0x4232ca78,0x4232b500
+sfi-move,0x4232cad4,0x4232b55c
+sfi-move,0x4232cb30,0x4232b5b8
+sfi-move,0x4232cb8c,0x4232b614
+sfi-move,0x4232cbe8,0x4232b670
+sfi-move,0x4232cc44,0x4232b6cc
+sfi-move,0x4232cca0,0x4232b728
+sfi-move,0x4232ccfc,0x4232b784
+sfi-move,0x4232cd58,0x4232b7e0
+sfi-move,0x4232cdb4,0x4232b83c
+sfi-move,0x4232ce10,0x4232b898
+sfi-move,0x4232ce6c,0x4232b8f4
+sfi-move,0x4232cec8,0x4232b950
+sfi-move,0x4232cf24,0x4232b9ac
+sfi-move,0x4232cf80,0x4232ba08
+sfi-move,0x4232cfdc,0x4232ba64
+sfi-move,0x4232d038,0x4232bac0
+sfi-move,0x4232d094,0x4232bb1c
+sfi-move,0x4232d0f0,0x4232bb78
+sfi-move,0x4232d14c,0x4232bbd4
+sfi-move,0x4232d1a8,0x4232bc30
+sfi-move,0x4232d204,0x4232bc8c
+sfi-move,0x4232d260,0x4232bce8
+sfi-move,0x4232d2bc,0x4232bd44
+sfi-move,0x4232d318,0x4232bda0
+sfi-move,0x4232d374,0x4232bdfc
+sfi-move,0x4232d3d0,0x4232be58
+sfi-move,0x4232d42c,0x4232beb4
+sfi-move,0x4232d488,0x4232bf10
+sfi-move,0x4232d4e4,0x4232bf6c
+sfi-move,0x4232d540,0x4232c020
+sfi-move,0x4232d59c,0x4232c07c
+sfi-move,0x4232d5f8,0x4232c0d8
+sfi-move,0x4232d654,0x4232c134
+sfi-move,0x4232d6b0,0x4232c190
+sfi-move,0x4232d70c,0x4232c1ec
+sfi-move,0x4232d768,0x4232c248
+sfi-move,0x4232d7c4,0x4232c2a4
+sfi-move,0x4232d820,0x4232c300
+sfi-move,0x4232d87c,0x4232c35c
+sfi-move,0x4232d8d8,0x4232c3b8
+sfi-move,0x4232d934,0x4232c414
+sfi-move,0x4232d990,0x4232c470
+sfi-move,0x4232d9ec,0x4232c4cc
+sfi-move,0x4232da48,0x4232c528
+sfi-move,0x4232daa4,0x4232c584
+sfi-move,0x4232db24,0x4232c604
+sfi-move,0x4232e590,0x4232cff4
+sfi-move,0x4232e610,0x4232d074
+sfi-move,0x4232e690,0x4232d0f4
+sfi-move,0x4232e744,0x4232d1a8
+sfi-move,0x4232e858,0x4232d2b0
+sfi-move,0x4232e8d8,0x4232d330
+sfi-move,0x4232ee98,0x4232d83c
+sfi-move,0x4232eef4,0x4232d898
+sfi-move,0x4232ef50,0x4232d8f4
+sfi-move,0x4232efac,0x4232d950
+sfi-move,0x4232f028,0x4232d9cc
+sfi-move,0x4232f5e8,0x4232df44
+sfi-move,0x4232f644,0x4232dfa0
+sfi-move,0x4232f6a0,0x4232e020
+sfi-move,0x4232f6fc,0x4232e07c
+sfi-move,0x4232f758,0x4232e0d8
+sfi-move,0x4232f7b4,0x4232e134
+sfi-move,0x4232f810,0x4232e190
+sfi-move,0x4232f86c,0x4232e1ec
+sfi-move,0x4232f8c8,0x4232e248
+sfi-move,0x4232f924,0x4232e2a4
+sfi-move,0x4232f980,0x4232e300
+sfi-move,0x4232f9dc,0x4232e35c
+sfi-move,0x4232fa38,0x4232e3b8
+sfi-move,0x4232fa94,0x4232e414
+sfi-move,0x4232faf0,0x4232e470
+sfi-move,0x4232fb4c,0x4232e4cc
+sfi-move,0x4232fba8,0x4232e528
+sfi-move,0x4232fc04,0x4232e584
+sfi-move,0x4232fc60,0x4232e5e0
+sfi-move,0x4232fcbc,0x4232e63c
+sfi-move,0x4232fd18,0x4232e698
+sfi-move,0x4232fd74,0x4232e6f4
+sfi-move,0x4232fdd0,0x4232e750
+sfi-move,0x4232fe2c,0x4232e7ac
+sfi-move,0x4232fe88,0x4232e808
+sfi-move,0x4232fee4,0x4232e864
+sfi-move,0x4232ff40,0x4232e8c0
+sfi-move,0x4232ff9c,0x4232e91c
+sfi-move,0x42330020,0x4232e978
+sfi-move,0x4233007c,0x4232e9d4
+sfi-move,0x423300d8,0x4232ea30
+sfi-move,0x42330134,0x4232ea8c
+sfi-move,0x42330190,0x4232eae8
+sfi-move,0x423301ec,0x4232eb44
+sfi-move,0x42330248,0x4232eba0
+sfi-move,0x423302a4,0x4232ebfc
+sfi-move,0x42330300,0x4232ec58
+sfi-move,0x4233035c,0x4232ecb4
+sfi-move,0x423303b8,0x4232ed10
+sfi-move,0x42330414,0x4232ed6c
+sfi-move,0x42330470,0x4232edc8
+sfi-move,0x423304cc,0x4232ee24
+sfi-move,0x42330528,0x4232ee80
+sfi-move,0x42330584,0x4232eedc
+sfi-move,0x423305e0,0x4232ef38
+sfi-move,0x4233063c,0x4232ef94
+sfi-move,0x42330698,0x4232eff0
+sfi-move,0x423306f4,0x4232f04c
+sfi-move,0x42330750,0x4232f0a8
+sfi-move,0x423307ac,0x4232f104
+sfi-move,0x42330808,0x4232f160
+sfi-move,0x42330864,0x4232f1bc
+sfi-move,0x423308c0,0x4232f218
+sfi-move,0x4233091c,0x4232f274
+sfi-move,0x42330978,0x4232f2d0
+sfi-move,0x423309d4,0x4232f32c
+sfi-move,0x42330a30,0x4232f388
+sfi-move,0x42330a8c,0x4232f3e4
+sfi-move,0x42330ae8,0x4232f440
+sfi-move,0x42330b44,0x4232f49c
+sfi-move,0x42330ba0,0x4232f4f8
+sfi-move,0x42330bfc,0x4232f554
+sfi-move,0x42330c58,0x4232f5b0
+sfi-move,0x42330cb4,0x4232f60c
+sfi-move,0x42330d10,0x4232f668
+sfi-move,0x42330d6c,0x4232f6c4
+sfi-move,0x42330dc8,0x4232f720
+sfi-move,0x42330e24,0x4232f77c
+sfi-move,0x42330e80,0x4232f7d8
+sfi-move,0x42330edc,0x4232f834
+sfi-move,0x42330f38,0x4232f890
+sfi-move,0x42330f94,0x4232f8ec
+sfi-move,0x42330ff0,0x4232f948
+sfi-move,0x4233104c,0x4232f9a4
+sfi-move,0x423310a8,0x4232fa00
+sfi-move,0x42331104,0x4232fa5c
+sfi-move,0x42331160,0x4232fab8
+sfi-move,0x423311bc,0x4232fb14
+sfi-move,0x42331218,0x4232fb70
+sfi-move,0x42331274,0x4232fbcc
+sfi-move,0x423312d0,0x4232fc28
+sfi-move,0x4233132c,0x4232fc84
+sfi-move,0x423313ac,0x4232fd04
+sfi-move,0x42332190,0x42330a5c
+sfi-move,0x423321ec,0x42330ab8
+sfi-move,0x42332248,0x42330b14
+sfi-move,0x423322a4,0x42330b70
+sfi-move,0x42332300,0x42330bcc
+sfi-move,0x4233235c,0x42330c28
+sfi-move,0x423323b8,0x42330c84
+sfi-move,0x42332414,0x42330ce0
+sfi-move,0x42332470,0x42330d3c
+sfi-move,0x423324cc,0x42330d98
+sfi-move,0x4233254c,0x42330e18
+sfi-move,0x423328c8,0x423310fc
+sfi-move,0x42332924,0x42331158
+sfi-move,0x42332980,0x423311b4
+sfi-move,0x423329dc,0x42331210
+sfi-move,0x42332a38,0x4233126c
+sfi-move,0x42332a94,0x423312c8
+sfi-move,0x42332af0,0x42331324
+sfi-move,0x42332b4c,0x42331380
+sfi-move,0x42332ba8,0x423313dc
+sfi-move,0x42332c04,0x42331438
+sfi-move,0x42332c60,0x42331494
+sfi-move,0x42332cbc,0x423314f0
+sfi-move,0x42332d18,0x4233154c
+sfi-move,0x42332d74,0x423315a8
+sfi-move,0x42332dd0,0x42331604
+sfi-move,0x42332e50,0x42331684
+sfi-move,0x42333154,0x42331964
+sfi-move,0x423331d4,0x423319e4
+sfi-move,0x42333250,0x42331a60
+sfi-move,0x423332d0,0x42331ae0
+sfi-move,0x42333350,0x42331b60
+sfi-move,0x42333538,0x42331d48
+sfi-move,0x42333650,0x42331e60
+sfi-move,0x423336d0,0x42331ee0
+code-move,0x42360020,0x42360020
+code-move,0x423600e0,0x423600e0
+code-move,0x423601a0,0x423601a0
+code-move,0x423603e0,0x423603e0
+code-move,0x42360420,0x42360420
+code-move,0x42360460,0x42360460
+code-move,0x423604a0,0x423604a0
+code-move,0x423604e0,0x423604e0
+code-move,0x42360520,0x42360520
+code-move,0x42360560,0x42360560
+code-move,0x423605a0,0x423605a0
+code-move,0x423605e0,0x423605e0
+code-move,0x42360620,0x42360620
+code-move,0x42360660,0x42360660
+code-move,0x423606a0,0x423606a0
+code-move,0x423606e0,0x423606e0
+code-move,0x42360720,0x42360720
+code-move,0x42360760,0x42360760
+code-move,0x423607a0,0x423607a0
+code-move,0x423607e0,0x423607e0
+code-move,0x42360820,0x42360820
+code-move,0x42360860,0x42360860
+code-move,0x423608a0,0x423608a0
+code-move,0x42360940,0x42360940
+code-move,0x423609a0,0x423609a0
+code-move,0x42360ba0,0x42360ba0
+code-move,0x42360d80,0x42360d80
+code-move,0x42360f40,0x42360f40
+code-move,0x42360fc0,0x42360fc0
+code-move,0x42361020,0x42361020
+code-move,0x42361080,0x42361080
+code-move,0x423610e0,0x423610e0
+code-move,0x42361160,0x42361160
+code-move,0x423611e0,0x423611e0
+code-move,0x42361220,0x42361220
+code-move,0x42361260,0x42361260
+code-move,0x423612a0,0x423612a0
+code-move,0x423612e0,0x423612e0
+code-move,0x42361320,0x42361320
+code-move,0x42361360,0x42361360
+code-move,0x423613a0,0x423613a0
+code-move,0x42361680,0x42361680
+code-move,0x423617a0,0x423617a0
+code-move,0x423617e0,0x423617e0
+code-move,0x42361840,0x42361840
+code-move,0x423618c0,0x423618c0
+code-move,0x42361940,0x42361940
+code-move,0x42361a20,0x42361a20
+code-move,0x42361a60,0x42361a60
+code-move,0x42361aa0,0x42361aa0
+code-move,0x42362020,0x42362020
+code-move,0x423622c0,0x423622c0
+code-move,0x42362480,0x42362480
+code-move,0x42362500,0x42362500
+code-move,0x42362540,0x42362540
+code-move,0x423625c0,0x423625c0
+code-move,0x423628a0,0x423628a0
+code-move,0x42362a00,0x42362a00
+code-move,0x42362ae0,0x42362ae0
+code-move,0x42362b20,0x42362b20
+code-move,0x42362b60,0x42362b60
+code-move,0x42362be0,0x42362be0
+code-move,0x42362d40,0x42362d40
+code-move,0x42362e20,0x42362e20
+code-move,0x42362e60,0x42362e60
+code-move,0x42362ea0,0x42362ea0
+code-move,0x42362f80,0x42362f80
+code-move,0x42362fc0,0x42362fc0
+code-move,0x423630a0,0x423630a0
+code-move,0x423631e0,0x423631e0
+code-move,0x42363320,0x42363320
+code-move,0x423634e0,0x423634e0
+code-move,0x423636a0,0x423636a0
+code-move,0x42363800,0x42363800
+code-move,0x42363840,0x42363840
+code-move,0x42363a40,0x42363a40
+code-move,0x42363aa0,0x42363aa0
+code-move,0x42363b00,0x42363b00
+code-move,0x42363b40,0x42363b40
+code-move,0x42363ba0,0x42363ba0
+code-move,0x42363c00,0x42363c00
+code-move,0x42363c60,0x42363c60
+code-move,0x42363cc0,0x42363cc0
+code-move,0x42363d20,0x42363d20
+code-move,0x42363d60,0x42363d60
+code-move,0x42363da0,0x42363da0
+code-move,0x42364020,0x42364020
+code-move,0x423640c0,0x423640c0
+code-move,0x42364160,0x42364160
+code-move,0x42364200,0x42364200
+code-move,0x423642a0,0x423642a0
+code-move,0x423648a0,0x423648a0
+code-move,0x423649c0,0x423649c0
+code-move,0x42364a80,0x42364a80
+code-move,0x42364ae0,0x42364ae0
+code-move,0x42364e20,0x42364e20
+code-move,0x42365320,0x42365320
+code-move,0x42365520,0x42365520
+code-move,0x42365600,0x42365600
+code-move,0x423656e0,0x423656e0
+code-move,0x423657c0,0x423657c0
+code-move,0x423658a0,0x423658a0
+code-move,0x42365980,0x42365980
+code-move,0x42365aa0,0x42365aa0
+code-move,0x42365b80,0x42365b80
+code-move,0x42365c20,0x42365c20
+code-move,0x42365cc0,0x42365cc0
+code-move,0x42365da0,0x42365da0
+code-move,0x42365ec0,0x42365ec0
+code-move,0x42366020,0x42366020
+code-move,0x423660c0,0x423660c0
+code-move,0x42366180,0x42366180
+code-move,0x423662e0,0x423662e0
+code-move,0x42366380,0x42366380
+code-move,0x42366400,0x42366400
+code-move,0x42366600,0x42366600
+code-move,0x42366660,0x42366660
+code-move,0x42366720,0x42366720
+code-move,0x42366800,0x42366800
+code-move,0x42366920,0x42366920
+code-move,0x42366a40,0x42366a40
+code-move,0x42366aa0,0x42366aa0
+code-move,0x42366b00,0x42366b00
+code-move,0x42366b60,0x42366b60
+code-move,0x42366bc0,0x42366bc0
+code-move,0x42366c80,0x42366c80
+code-move,0x42366e40,0x42366e40
+code-move,0x42367020,0x42367020
+code-move,0x42367080,0x42367080
+code-move,0x423670e0,0x423670e0
+code-move,0x42367140,0x42367140
+code-move,0x423671e0,0x423671e0
+code-move,0x42367540,0x42367540
+code-move,0x423675c0,0x423675c0
+code-move,0x42367660,0x42367660
+code-move,0x42367e60,0x42367e60
+code-move,0x42367f00,0x42367f00
+code-move,0x42368020,0x42368020
+code-move,0x423680c0,0x423680c0
+code-move,0x42368240,0x42368240
+code-move,0x423682e0,0x423682e0
+code-move,0x42368380,0x42368380
+code-move,0x423683c0,0x423683c0
+code-move,0x42368400,0x42368400
+code-move,0x423685c0,0x423685c0
+code-move,0x42368620,0x42368620
+code-move,0x42368680,0x42368680
+code-move,0x42368760,0x423686e0
+code-move,0x423687c0,0x42368740
+code-move,0x423688a0,0x42368820
+code-move,0x42368940,0x423688c0
+code-move,0x42368b20,0x42368a20
+code-move,0x42368c40,0x42368b40
+code-move,0x42368ce0,0x42368be0
+code-move,0x42368d80,0x42368c80
+code-move,0x42369000,0x42368f00
+code-move,0x423690a0,0x42368fa0
+code-move,0x42369140,0x42369040
+code-move,0x423691e0,0x423690e0
+code-move,0x423692a0,0x423691a0
+code-move,0x42369340,0x42369240
+code-move,0x42369440,0x42369340
+code-move,0x423694a0,0x423693a0
+code-move,0x42369640,0x42369540
+code-move,0x423698c0,0x423697c0
+code-move,0x42369900,0x42369800
+code-move,0x42369980,0x42369880
+code-move,0x423699c0,0x423698c0
+code-move,0x42369a00,0x42369900
+code-move,0x42369a80,0x42369980
+code-move,0x42369d60,0x42369c60
+code-move,0x42369e20,0x42369d20
+code-move,0x42369ee0,0x42369de0
+code-move,0x4236a020,0x42369e80
+code-move,0x4236a120,0x4236a020
+code-move,0x4236a1c0,0x4236a0c0
+code-move,0x4236a240,0x4236a140
+code-move,0x4236a2c0,0x4236a1c0
+code-move,0x4236a360,0x4236a260
+code-move,0x4236a3c0,0x4236a2c0
+code-move,0x4236aa60,0x4236a960
+code-move,0x4236ab00,0x4236aa00
+code-move,0x4236abe0,0x4236aae0
+code-move,0x4236ada0,0x4236ab80
+code-move,0x4236ae40,0x4236ac20
+code-move,0x4236aee0,0x4236acc0
+code-move,0x4236af80,0x4236ad60
+code-move,0x4236b200,0x4236afe0
+code-move,0x4236b320,0x4236b100
+code-move,0x4236b3c0,0x4236b1a0
+code-move,0x4236b760,0x4236b540
+code-move,0x4236b840,0x4236b5e0
+code-move,0x4236b940,0x4236b680
+code-move,0x4236ba00,0x4236b740
+code-move,0x4236bb00,0x4236b840
+code-move,0x4236bca0,0x4236b9e0
+code-move,0x4236bd00,0x4236ba40
+code-move,0x4236c020,0x4236bae0
+code-move,0x4236c380,0x4236be40
+code-move,0x4236c420,0x4236c020
+code-move,0x4236cf80,0x4236cb80
+code-move,0x4236d000,0x4236cc00
+code-move,0x4236d060,0x4236cc60
+code-move,0x4236d0e0,0x4236cce0
+code-move,0x4236d260,0x4236ce60
+code-move,0x4236d480,0x4236d080
+code-move,0x4236d940,0x4236d540
+code-move,0x4236d9c0,0x4236d5c0
+code-move,0x4236da80,0x4236d640
+code-move,0x4236dc80,0x4236d840
+code-move,0x4236dce0,0x4236d8a0
+code-move,0x4236df60,0x4236da80
+code-move,0x4236e100,0x4236db20
+code-move,0x4236e180,0x4236dba0
+code-move,0x4236e260,0x4236dc80
+code-move,0x4236e300,0x4236dd20
+code-move,0x4236e380,0x4236dda0
+code-move,0x4236e4a0,0x4236dec0
+code-move,0x4236e560,0x4236e020
+code-move,0x4236e6a0,0x4236e160
+code-move,0x4236e860,0x4236e320
+code-move,0x4236e9a0,0x4236e460
+code-move,0x4236eb20,0x4236e4e0
+code-move,0x4236eca0,0x4236e560
+code-move,0x4236ee20,0x4236e5e0
+code-move,0x4236efc0,0x4236e780
+code-move,0x4236f140,0x4236e900
+code-move,0x42370020,0x42370020
+code-move,0x42371880,0x42371880
+code-move,0x42371a60,0x42371a60
+code-move,0x42371ac0,0x42371ac0
+code-move,0x42371b20,0x42371b20
+code-move,0x42371b80,0x42371b80
+code-move,0x42371be0,0x42371be0
+code-move,0x42371c40,0x42371c40
+code-move,0x42371d20,0x42371d20
+code-move,0x42371e20,0x42371e20
+code-move,0x42371fa0,0x42371f00
+code-move,0x42372020,0x42371f60
+code-move,0x42372080,0x42372020
+code-move,0x423720e0,0x42372080
+code-move,0x423728a0,0x42372240
+code-move,0x42372bc0,0x423722c0
+code-move,0x42372e20,0x423724a0
+code-move,0x42372e60,0x423724e0
+code-move,0x42373040,0x42372640
+code-move,0x423730a0,0x423726a0
+code-move,0x42373140,0x42372700
+code-move,0x423731e0,0x42372760
+code-move,0x42373700,0x42372800
+code-move,0x423737c0,0x423728c0
+code-move,0x42373880,0x42372980
+code-move,0x42373da0,0x42372da0
+code-move,0x42374020,0x42372e00
+code-move,0x423745c0,0x423733a0
+code-move,0x423746e0,0x423734c0
+code-move,0x423747e0,0x423735c0
+code-move,0x423748c0,0x423736a0
+code-move,0x42374940,0x42373720
+code-move,0x423749e0,0x423737c0
+code-move,0x42374a80,0x42373860
+code-move,0x42374f20,0x42373d00
+code-move,0x42374fc0,0x42373da0
+code-move,0x42375060,0x42373e40
+code-move,0x42375120,0x42373f00
+code-move,0x423751c0,0x42374020
+code-move,0x42375300,0x42374160
+code-move,0x423753a0,0x42374200
+code-move,0x42375420,0x42374280
+code-move,0x42375480,0x423742e0
+code-move,0x42375560,0x423743c0
+code-move,0x423755c0,0x42374420
+code-move,0x42375660,0x423744c0
+code-move,0x42375e60,0x42374cc0
+code-move,0x42375f40,0x42374da0
+code-move,0x42376020,0x42374e40
+code-move,0x423765a0,0x423753c0
+code-move,0x42376b20,0x42375940
+code-move,0x42376ba0,0x423759c0
+code-move,0x42376d20,0x42375b40
+code-move,0x42376dc0,0x42375be0
+code-move,0x42376e00,0x42375c20
+code-move,0x42376e40,0x42375c60
+code-move,0x42377040,0x42375e60
+snapshot-code-name,67326,"Stub:TypeRecordingBinaryOpStub_ADD_OverwriteRight_Uninitialized"
+snapshot-code-name,67397,"Stub:CEntryStub"
+snapshot-code-name,68097,"Stub:TypeRecordingBinaryOpStub_MUL_Alloc_Uninitialized"
+snapshot-code-name,68182,"Stub:CompareIC"
+snapshot-code-name,68330,"Stub:CompareIC"
+snapshot-code-name,68473,"Stub:FastCloneShallowArrayStub"
+snapshot-code-name,68675,"Stub:CompareIC"
+snapshot-code-name,68854,"Stub:StackCheckStub"
+snapshot-code-name,69022,"Stub:ArgumentsAccessStub"
+snapshot-code-name,69276,"Stub:TypeRecordingBinaryOpStub_ADD_Alloc_BothStrings"
+snapshot-code-name,69369,"Stub:StringAdd"
+snapshot-code-name,70826,"Stub:JSEntryStub"
+snapshot-code-name,71076,"Stub:CompareIC"
+snapshot-code-name,71204,"Stub:FastNewContextStub"
+snapshot-code-name,71469,"Stub:TypeRecordingBinaryOpStub_ADD_OverwriteLeft_Uninitialized"
+snapshot-code-name,71619,"Stub:FastCloneShallowArrayStub"
+snapshot-code-name,71852,"Stub:TypeRecordingBinaryOpStub_SUB_Alloc_Uninitialized"
+snapshot-code-name,71948,"Stub:CompareIC"
+snapshot-code-name,72087,"Stub:StringDictionaryNegativeLookup"
+snapshot-code-name,72891,"Stub:CompareIC"
+snapshot-code-name,72967,"Stub:CompareStub_EQ"
+snapshot-code-name,73546,"Stub:CallFunction"
+snapshot-code-name,73648,"Builtin:ArgumentsAdaptorTrampoline"
+snapshot-code-name,73865,"Stub:CallFunction"
+snapshot-code-name,74013,"Stub:TypeRecordingBinaryOpStub_BIT_OR_Alloc_Uninitialized"
+snapshot-code-name,74176,"Stub:ToNumberStub"
+snapshot-code-name,74273,"Stub:StringAdd"
+snapshot-code-name,75640,"Stub:StringDictionaryNegativeLookup"
+snapshot-code-name,76426,"Stub:StringAdd"
+snapshot-code-name,77925,"Stub:CompareIC"
+snapshot-code-name,78134,"Stub:CompareIC"
+snapshot-code-name,78252,"Stub:TypeRecordingBinaryOpStub_DIV_Alloc_Uninitialized"
+snapshot-code-name,78337,"Stub:TypeRecordingBinaryOpStub_SUB_Alloc_HeapNumbers"
+snapshot-code-name,78776,"Stub:JSConstructEntryStub"
+snapshot-code-name,79036,"Stub:FastCloneShallowArrayStub"
+snapshot-code-name,79241,"Stub:CompareIC"
+snapshot-code-name,79433,"Stub:StringAdd"
+snapshot-code-name,80932,"Stub:StringDictionaryNegativeLookup"
+snapshot-code-name,81763,"Stub:TypeRecordingBinaryOpStub_SAR_Alloc_Uninitialized"
+snapshot-code-name,81876,"Stub:CompareIC"
+snapshot-code-name,81995,"Stub:CompareStub_EQ_STRICT"
+snapshot-code-name,82570,"Stub:CallFunction"
+snapshot-code-name,82759,"Stub:CallFunction"
+snapshot-code-name,82927,"Stub:CompareIC"
+snapshot-code-name,83082,"Stub:ArgumentsAccessStub"
+snapshot-code-name,83255,"Stub:FastNewContextStub"
+snapshot-code-name,83564,"Stub:TypeRecordingBinaryOpStub_ADD_Alloc_SMI"
+snapshot-code-name,83826,"Stub:ToBoolean"
+snapshot-code-name,83977,"Stub:TypeRecordingBinaryOpStub_ADD_Alloc_Strings"
+snapshot-code-name,84188,"Stub:TypeRecordingBinaryOpStub_SAR_Alloc_SMI"
+snapshot-code-name,84405,"Stub:TypeRecordingBinaryOpStub_BIT_OR_Alloc_SMI"
+snapshot-code-name,84577,"Stub:FastCloneShallowArrayStub"
+snapshot-code-name,84827,"Stub:FastCloneShallowArrayStub"
+snapshot-code-name,85059,"Stub:StringCompare"
+snapshot-code-name,85288,"Stub:FastNewClosureStub"
+snapshot-code-name,85488,"Stub:NumberToStringStub"
+snapshot-code-name,85761,"Stub:TypeRecordingBinaryOpStub_ADD_Alloc_Uninitialized"
+snapshot-code-name,85932,"CallPreMonomorphic:26"
+snapshot-code-name,86128,"CallPreMonomorphic:42"
+snapshot-code-name,86377,"CallInitialize:12"
+snapshot-code-name,86591,"CallPreMonomorphic:6"
+snapshot-code-name,86777,"CallPreMonomorphic:1"
+snapshot-code-name,86973,"CallInitialize:42"
+snapshot-code-name,87197,"CallInitialize:26"
+snapshot-code-name,87383,"CallPreMonomorphic:3"
+snapshot-code-name,87569,"CallPreMonomorphic:4"
+snapshot-code-name,87783,"CallInitialize:70"
+snapshot-code-name,87987,"CallInitialize:4"
+snapshot-code-name,88183,"CallMiss:2"
+snapshot-code-name,88388,"CallPreMonomorphic:70"
+snapshot-code-name,88646,"CallInitialize:1"
+snapshot-code-name,88832,"CallInitialize:36"
+snapshot-code-name,89017,"CallInitialize:2"
+snapshot-code-name,89267,"CallPreMonomorphic:36"
+snapshot-code-name,89462,"CallInitialize:0"
+snapshot-code-name,89658,"CallPreMonomorphic:8"
+snapshot-code-name,89935,"CallPreMonomorphic:1"
+snapshot-code-name,90121,"CallInitialize:20"
+snapshot-code-name,90326,"CallInitialize:3"
+snapshot-code-name,90522,"CallPreMonomorphic:92"
+snapshot-code-name,90707,"CallInitialize:2"
+snapshot-code-name,90893,"CallPreMonomorphic:20"
+snapshot-code-name,91116,"CallMiss:1"
+snapshot-code-name,91302,"CallMiss:3"
+snapshot-code-name,91498,"CallMiss:0"
+snapshot-code-name,91684,"CallInitialize:6"
+snapshot-code-name,91880,"CallInitialize:92"
+snapshot-code-name,92075,"CallInitialize:1"
+snapshot-code-name,92261,"CallPreMonomorphic:12"
+snapshot-code-name,92529,"CallInitialize:8"
+snapshot-code-name,92824,"CallPreMonomorphic:0"
+snapshot-code-name,93029,"CallPreMonomorphic:2"
+snapshot-code-name,115216,"Builtin:Return_DebugBreak"
+snapshot-code-name,115327,"Builtin:Slot_DebugBreak"
+snapshot-code-name,115509,"Script:native apinatives.js"
+snapshot-code-name,115644,"Builtin:LazyCompile"
+snapshot-code-name,115753,"Builtin:JSConstructStubGeneric"
+snapshot-code-name,116905,"Builtin:LoadIC_Initialize"
+snapshot-code-name,117145,"Script:native string.js"
+snapshot-code-name,126821,"LazyCompile:SetupString native string.js:942"
+snapshot-code-name,128254,"LazyCompile:b native string.js:36"
+snapshot-code-name,128836,"Builtin:JSConstructCall"
+snapshot-code-name,129395,"Builtin:StoreIC_Initialize"
+snapshot-code-name,130078,"Script:native runtime.js"
+snapshot-code-name,130435,"LazyCompile:EQUALS native runtime.js:53"
+snapshot-code-name,135100,"LazyCompile:STRICT_EQUALS native runtime.js:99"
+snapshot-code-name,135584,"LazyCompile:COMPARE native runtime.js:119"
+snapshot-code-name,136765,"LazyCompile:ADD native runtime.js:162"
+snapshot-code-name,137550,"LazyCompile:STRING_ADD_LEFT native runtime.js:182"
+snapshot-code-name,138213,"LazyCompile:STRING_ADD_RIGHT native runtime.js:197"
+snapshot-code-name,138899,"LazyCompile:SUB native runtime.js:213"
+snapshot-code-name,139337,"LazyCompile:MUL native runtime.js:221"
+snapshot-code-name,139743,"LazyCompile:DIV native runtime.js:229"
+snapshot-code-name,140149,"LazyCompile:MOD native runtime.js:237"
+snapshot-code-name,140559,"LazyCompile:BIT_OR native runtime.js:251"
+snapshot-code-name,140969,"LazyCompile:BIT_AND native runtime.js:259"
+snapshot-code-name,141468,"LazyCompile:BIT_XOR native runtime.js:281"
+snapshot-code-name,141882,"LazyCompile:UNARY_MINUS native runtime.js:289"
+snapshot-code-name,142213,"LazyCompile:BIT_NOT native runtime.js:296"
+snapshot-code-name,142540,"LazyCompile:SHL native runtime.js:303"
+snapshot-code-name,142948,"LazyCompile:SAR native runtime.js:311"
+snapshot-code-name,143446,"LazyCompile:SHR native runtime.js:333"
+snapshot-code-name,143858,"LazyCompile:DELETE native runtime.js:347"
+snapshot-code-name,144210,"LazyCompile:IN native runtime.js:353"
+snapshot-code-name,144817,"LazyCompile:INSTANCE_OF native runtime.js:365"
+snapshot-code-name,145671,"LazyCompile:GET_KEYS native runtime.js:389"
+snapshot-code-name,145935,"LazyCompile:FILTER_KEY native runtime.js:397"
+snapshot-code-name,146312,"LazyCompile:CALL_NON_FUNCTION native runtime.js:404"
+snapshot-code-name,146876,"LazyCompile:CALL_NON_FUNCTION_AS_CONSTRUCTOR native runtime.js:413"
+snapshot-code-name,147392,"LazyCompile:APPLY_PREPARE native runtime.js:422"
+snapshot-code-name,148704,"LazyCompile:APPLY_OVERFLOW native runtime.js:458"
+snapshot-code-name,149006,"LazyCompile:TO_OBJECT native runtime.js:464"
+snapshot-code-name,149263,"LazyCompile:TO_NUMBER native runtime.js:470"
+snapshot-code-name,149520,"LazyCompile:TO_STRING native runtime.js:476"
+snapshot-code-name,149755,"LazyCompile:ToPrimitive native runtime.js:488"
+snapshot-code-name,150412,"LazyCompile:ToBoolean native runtime.js:499"
+snapshot-code-name,150957,"LazyCompile:ToNumber native runtime.js:509"
+snapshot-code-name,151657,"LazyCompile:ToString native runtime.js:532"
+snapshot-code-name,152308,"LazyCompile:ToObject native runtime.js:549"
+snapshot-code-name,153269,"LazyCompile:SameValue native runtime.js:582"
+snapshot-code-name,154708,"Script:native math.js"
+snapshot-code-name,155000,"LazyCompile:MathConstructor native math.js:38"
+snapshot-code-name,158582,"LazyCompile:SetupMath native math.js:198"
+snapshot-code-name,160559,"Script:native date.js"
+snapshot-code-name,167995,"LazyCompile:TimeClip native date.js:378"
+snapshot-code-name,175912,"LazyCompile:SetupDate native date.js:1040"
+snapshot-code-name,178415,"LazyCompile:WeekDays native date.js:398"
+snapshot-code-name,181826,"Script:native regexp.js"
+snapshot-code-name,184175,"LazyCompile:RegExpConstructor native regexp.js:81"
+snapshot-code-name,185873,"LazyCompile:RegExpMakeCaptureGetter native regexp.js:365"
+snapshot-code-name,186029,"Function: native regexp.js:366"
+snapshot-code-name,186444,"Builtin:KeyedLoadIC_Initialize"
+snapshot-code-name,187155,"LazyCompile:SetupRegExp native regexp.js:403"
+snapshot-code-name,187876,"Function:RegExpGetInput native regexp.js:422"
+snapshot-code-name,188227,"Function:RegExpSetInput native regexp.js:426"
+snapshot-code-name,188355,"Builtin:KeyedStoreIC_Initialize"
+snapshot-code-name,188620,"Function:RegExpGetMultiline native regexp.js:446"
+snapshot-code-name,188891,"Function:RegExpSetMultiline native regexp.js:447"
+snapshot-code-name,189293,"Function:NoOpSetter native regexp.js:455"
+snapshot-code-name,192204,"Script:native messages.js"
+snapshot-code-name,198664,"LazyCompile:MakeGenericError native messages.js:117"
+snapshot-code-name,199501,"LazyCompile:MakeRangeError native messages.js:278"
+snapshot-code-name,200967,"LazyCompile:DefineOneShotAccessor native messages.js:678"
+snapshot-code-name,201267,"Function:DefineOneShotAccessor.a.__defineSetter__.d native messages.js:684"
+snapshot-code-name,201904,"Function: native messages.js:692"
+snapshot-code-name,203095,"LazyCompile:DefineError native messages.js:969"
+snapshot-code-name,203405,"Function:ErrorPrototype native messages.js:985"
+snapshot-code-name,204068,"Function: native messages.js:1000"
+snapshot-code-name,204442,"Function: native messages.js:1011"
+snapshot-code-name,205210,"LazyCompile:captureStackTrace native messages.js:1024"
+snapshot-code-name,205746,"Function: native messages.js:1032"
+snapshot-code-name,206996,"LazyCompile:kMessages.cyclic_proto native messages.js:133"
+snapshot-code-name,214007,"Script:native array.js"
+snapshot-code-name,223444,"LazyCompile:SetupArray native array.js:1297"
+snapshot-code-name,224058,"Function:getFunction native array.js:1309"
+snapshot-code-name,226198,"Function:SetupArray.InternalArray.toString native array.js:1360"
+snapshot-code-name,227005,"Script:native json.js"
+snapshot-code-name,229613,"LazyCompile:SetupJSON native json.js:335"
+snapshot-code-name,230271,"Script:native uri.js"
+snapshot-code-name,234213,"LazyCompile:SetupURI native uri.js:395"
+snapshot-code-name,234894,"Script:native v8natives.js"
+snapshot-code-name,235770,"LazyCompile:InstallFunctions native v8natives.js:49"
+snapshot-code-name,241877,"LazyCompile:InstallFunctionsOnHiddenPrototype native v8natives.js:68"
+snapshot-code-name,242376,"LazyCompile:isFinite native v8natives.js:86"
+snapshot-code-name,243297,"LazyCompile:SetupGlobal native v8natives.js:165"
+snapshot-code-name,244301,"LazyCompile:hasOwnProperty native v8natives.js:237"
+snapshot-code-name,245014,"LazyCompile:__defineGetter__ native v8natives.js:260"
+snapshot-code-name,246175,"LazyCompile:__defineSetter__ native v8natives.js:283"
+snapshot-code-name,247313,"LazyCompile:IsAccessorDescriptor native v8natives.js:315"
+snapshot-code-name,247782,"LazyCompile:IsDataDescriptor native v8natives.js:322"
+snapshot-code-name,248255,"LazyCompile:IsGenericDescriptor native v8natives.js:329"
+snapshot-code-name,249010,"LazyCompile:PropertyDescriptor native v8natives.js:401"
+snapshot-code-name,249772,"LazyCompile:ConvertDescriptorArrayToDescriptor native v8natives.js:522"
+snapshot-code-name,250866,"LazyCompile:DefineOwnProperty native v8natives.js:579"
+snapshot-code-name,260280,"LazyCompile:SetupObject native v8natives.js:963"
+snapshot-code-name,261429,"LazyCompile:SetupBoolean native v8natives.js:1026"
+snapshot-code-name,262436,"LazyCompile:SetupNumber native v8natives.js:1147"
+snapshot-code-name,263924,"LazyCompile:NewFunction native v8natives.js:1289"
+snapshot-code-name,265184,"LazyCompile:SetupFunction native v8natives.js:1315"
+snapshot-code-name,265679,"LazyCompile:$Object.constructor native v8natives.js:193"
+snapshot-code-name,266953,"LazyCompile:PropertyDescriptor.hasValue native v8natives.js:434"
+snapshot-code-name,267286,"LazyCompile:PropertyDescriptor.setEnumerable native v8natives.js:439"
+snapshot-code-name,267699,"LazyCompile:PropertyDescriptor.isEnumerable native v8natives.js:445"
+snapshot-code-name,268025,"LazyCompile:PropertyDescriptor.hasEnumerable native v8natives.js:450"
+snapshot-code-name,268733,"LazyCompile:PropertyDescriptor.hasWritable native v8natives.js:466"
+snapshot-code-name,269066,"LazyCompile:PropertyDescriptor.setConfigurable native v8natives.js:471"
+snapshot-code-name,269463,"LazyCompile:PropertyDescriptor.hasConfigurable native v8natives.js:477"
+snapshot-code-name,269789,"LazyCompile:PropertyDescriptor.isConfigurable native v8natives.js:482"
+snapshot-code-name,270115,"LazyCompile:PropertyDescriptor.setGet native v8natives.js:487"
+snapshot-code-name,270515,"LazyCompile:PropertyDescriptor.getGet native v8natives.js:493"
+snapshot-code-name,270844,"LazyCompile:PropertyDescriptor.hasGetter native v8natives.js:498"
+snapshot-code-name,271177,"LazyCompile:PropertyDescriptor.setSet native v8natives.js:503"
+snapshot-code-name,271577,"LazyCompile:PropertyDescriptor.getSet native v8natives.js:509"
+snapshot-code-name,271906,"LazyCompile:PropertyDescriptor.hasSetter native v8natives.js:514"
+snapshot-code-name,272256,"LazyCompile:a native v8natives.js:948"
+snapshot-code-name,272836,"LazyCompile:b native v8natives.js:1039"
+snapshot-code-name,275353,"Builtin:Illegal"
+snapshot-code-name,275429,"Builtin:EmptyFunction"
+snapshot-code-name,275505,"Builtin:ArrayCodeGeneric"
+snapshot-code-name,275581,"Builtin:ArrayPush"
+snapshot-code-name,275657,"Builtin:ArrayPop"
+snapshot-code-name,275733,"Builtin:ArrayShift"
+snapshot-code-name,275809,"Builtin:ArrayUnshift"
+snapshot-code-name,275885,"Builtin:ArraySlice"
+snapshot-code-name,275961,"Builtin:ArraySplice"
+snapshot-code-name,276037,"Builtin:ArrayConcat"
+snapshot-code-name,276113,"Builtin:HandleApiCall"
+snapshot-code-name,276189,"Builtin:FastHandleApiCall"
+snapshot-code-name,276265,"Builtin:HandleApiCallConstruct"
+snapshot-code-name,276341,"Builtin:HandleApiCallAsFunction"
+snapshot-code-name,276417,"Builtin:HandleApiCallAsConstructor"
+snapshot-code-name,276493,"Builtin:StrictArgumentsCallee"
+snapshot-code-name,276569,"Builtin:StrictArgumentsCaller"
+snapshot-code-name,276645,"Builtin:StrictFunctionCaller"
+snapshot-code-name,276721,"Builtin:StrictFunctionArguments"
+snapshot-code-name,276804,"Builtin:JSConstructStubCountdown"
+snapshot-code-name,277366,"Builtin:JSConstructStubApi"
+snapshot-code-name,277854,"Builtin:JSEntryTrampoline"
+snapshot-code-name,277995,"Builtin:JSConstructEntryTrampoline"
+snapshot-code-name,278106,"Builtin:LazyRecompile"
+snapshot-code-name,278213,"Builtin:NotifyDeoptimized"
+snapshot-code-name,278358,"Builtin:NotifyLazyDeoptimized"
+snapshot-code-name,278503,"Builtin:NotifyOSR"
+snapshot-code-name,278577,"Builtin:LoadIC_Miss"
+snapshot-code-name,278654,"Builtin:KeyedLoadIC_Miss"
+snapshot-code-name,278731,"Builtin:StoreIC_Miss"
+snapshot-code-name,278807,"Builtin:KeyedStoreIC_Miss"
+snapshot-code-name,278886,"Builtin:LoadIC_PreMonomorphic"
+snapshot-code-name,278963,"Builtin:LoadIC_Normal"
+snapshot-code-name,279273,"Builtin:LoadIC_ArrayLength"
+snapshot-code-name,279349,"Builtin:LoadIC_StringLength"
+snapshot-code-name,279458,"Builtin:LoadIC_StringWrapperLength"
+snapshot-code-name,279599,"Builtin:LoadIC_FunctionPrototype"
+snapshot-code-name,279740,"Builtin:LoadIC_Megamorphic"
+snapshot-code-name,279998,"Builtin:KeyedLoadIC_PreMonomorphic"
+snapshot-code-name,280076,"Builtin:KeyedLoadIC_Generic"
+snapshot-code-name,280781,"Builtin:KeyedLoadIC_String"
+snapshot-code-name,281279,"Builtin:KeyedLoadIC_IndexedInterceptor"
+snapshot-code-name,281427,"Builtin:StoreIC_ArrayLength"
+snapshot-code-name,281573,"Builtin:StoreIC_Normal"
+snapshot-code-name,281950,"Builtin:StoreIC_Megamorphic"
+snapshot-code-name,282210,"Builtin:StoreIC_GlobalProxy"
+snapshot-code-name,282286,"Builtin:StoreIC_Initialize_Strict"
+snapshot-code-name,282362,"Builtin:StoreIC_ArrayLength_Strict"
+snapshot-code-name,282508,"Builtin:StoreIC_Normal_Strict"
+snapshot-code-name,282885,"Builtin:StoreIC_Megamorphic_Strict"
+snapshot-code-name,283145,"Builtin:StoreIC_GlobalProxy_Strict"
+snapshot-code-name,283224,"Builtin:KeyedStoreIC_Generic"
+snapshot-code-name,283470,"Builtin:KeyedStoreIC_Initialize_Strict"
+snapshot-code-name,283546,"Builtin:KeyedStoreIC_Generic_Strict"
+snapshot-code-name,283792,"Builtin:FunctionCall"
+snapshot-code-name,284131,"Builtin:FunctionApply"
+snapshot-code-name,284471,"Builtin:ArrayCode"
+snapshot-code-name,284953,"Builtin:ArrayConstructCode"
+snapshot-code-name,285432,"Builtin:StringConstructCode"
+snapshot-code-name,285812,"Builtin:OnStackReplacement"
+snapshot-code-name,286357,"Builtin:ConstructCall_DebugBreak"
+snapshot-code-name,286468,"Builtin:StubNoRegisters_DebugBreak"
+snapshot-code-name,286546,"Builtin:LoadIC_DebugBreak"
+snapshot-code-name,286657,"Builtin:KeyedLoadIC_DebugBreak"
+snapshot-code-name,286768,"Builtin:StoreIC_DebugBreak"
+snapshot-code-name,286878,"Builtin:KeyedStoreIC_DebugBreak"
+snapshot-code-name,286991,"Builtin:PlainReturn_LiveEdit"
+snapshot-code-name,287063,"Builtin:FrameDropper_LiveEdit"

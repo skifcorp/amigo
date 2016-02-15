@@ -1,0 +1,12 @@
+/bin
+/lib
+/obj
+src/qt/qtapp/Makefile
+CMakeFiles
+Makefile
+CMakeCache.txt
+*.cmake
+*build*
+/include
+*.pyc
+

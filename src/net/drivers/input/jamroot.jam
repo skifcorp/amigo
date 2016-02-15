@@ -1,0 +1,24 @@
+
+
+project : requirements <include>/usr/local/include 
+                       <include>../../engine
+                       <include>../../sockets
+                       <include>../../../core
+                       <include>../../connection
+                       <include>../../engine/protocols
+                       <variant>release 
+                       <threading>multi 
+                       <cxxflags>-std=gnu++0x
+                       <dll-path>/usr/
+        : build-dir ../../../../obj/net/drivers/input
+        ;
+
+
+
+
+lib votlis            : votlis.cpp votlis.h inputdriver.cpp inputdriver.h ../../engine/entries.h  ../../engine/entries.cpp
+                      ;
+
+install dist : votlis
+             : <location>../../../../lib/net/drivers/input <hardcode-dll-paths>true
+             ;

@@ -1,0 +1,26 @@
+
+
+project : requirements <include>/usr/local/include 
+                       <include>../../../engine
+                       <include>../../../sockets
+                       <include>../../../../core
+                       <include>../../../connection
+                       <include>../../../engine/protocols
+                       <include>../core
+                       <variant>debug
+                       <threading>multi 
+                       <cxxflags>-std=gnu++0x
+                       <dll-path>/usr/
+        : build-dir ../../../../../obj/net/drivers/output
+        ;
+
+
+
+lib byrt              :  ../../../engine/entries.cpp byrt.cpp protocol.h byrt.h confparser.h ../core/outputdriverbase.h ../../../engine/entries.h 
+                         ../../../../core/tag.h ../../../../core/tag.cpp
+                      ;
+
+
+install dist : byrt
+             : <location>../../../../../lib/net/drivers/output <hardcode-dll-paths>true
+             ;

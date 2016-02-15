@@ -1,0 +1,25 @@
+
+
+project : requirements <include>/usr/local/include 
+                       <include>../../core
+                       <include>../../../include/
+                       <variant>debug
+                       <threading>multi
+                       <cxxflags>-std=gnu++0x
+                       <dll-path>/usr/
+               <hardcode-dll-paths>true
+        : build-dir ../../../obj/net/js 
+        ;
+
+
+
+lib js                : js.cpp
+                        ../../core/tag.h 
+                        ../../core/tag.cpp
+                        /usr/lib/libboost_thread.so
+                        ../../../lib/libv8.a
+                      ;
+
+install dist : js
+             : <location>../../../lib <hardcode-dll-paths>true
+             ;

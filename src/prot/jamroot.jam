@@ -1,0 +1,40 @@
+
+
+
+
+project : requirements <hardcode-dll-paths>true
+                       <include>/usr/local/include 
+                       <include>../core
+                       <variant>debug 
+                       <threading>multi 
+                       <cxxflags>-std=gnu++0x
+                       <dll-path>/usr/
+        :              build-dir ../../obj/prot
+        ;
+        
+lib prot  : xmlconfigreader.h 
+            xmlconfigreader.cpp 
+            compile.h 
+            configdata.h 
+            configdata.cpp 
+            ../core/monotone_timer.hpp
+            configreader.h 
+            basesaver.h 
+            basesaver.cpp 
+            mysqldriver.h 
+            mysqldriver.cpp
+            prot.cpp
+            /usr/lib/libboost_system.so
+            /usr/lib/libboost_date_time.so
+            /usr/lib/libboost_filesystem.so
+            /usr/lib/libboost_thread.so
+            /usr/lib/libmysqlcppconn.so
+
+          ;
+
+install dist : prot
+             : <hardcode-dll-paths>true 
+               <location>../../lib
+               <install-type>LIB
+             ;
+

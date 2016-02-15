@@ -1,0 +1,24 @@
+
+
+project : requirements <include>/usr/local/include 
+                       <include>../../../engine
+                       <include>../../../sockets
+                       <include>../../../../core
+                       <include>../../../connection
+                       <include>../../../engine/protocols
+                       <include>../core
+                       <variant>release 
+                       <threading>multi 
+                       <cxxflags>-std=gnu++0x
+                       <dll-path>/usr/
+        : build-dir ../../../../../obj/net/drivers/output
+        ;
+
+lib swap              : swap.cpp ../../../engine/entries.h ../core/outputdriverbase.h ../../../engine/entries.cpp ../../../../core/tag.h ../../../../core/tag.cpp
+                      ;
+
+
+
+install dist : swap
+             : <location>../../../../../lib/net/drivers/output <hardcode-dll-paths>true
+             ;

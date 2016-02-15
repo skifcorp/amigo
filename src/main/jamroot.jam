@@ -1,0 +1,28 @@
+ 
+
+
+project : requirements <include>/usr/local/include 
+          <variant>debug 
+          <threading>multi 
+          <cxxflags>-std=gnu++0x 
+          <linkflags>-ldl
+          <include>../core/
+         <dll-path>/usr
+        : build-dir ../../obj
+        ;
+
+exe amigo : ../core/amigofs.h 
+            ../core/amigofs.cpp 
+            main.cpp 
+            ../core/tag.h 
+            ../core/tag.cpp  
+            ../core/tag.cpp 
+            ../core/amodule.h 
+            ../core/amodule.cpp
+            /usr/lib/libboost_filesystem.so
+          ;
+
+ 
+install dist : amigo 
+             : <location>../../bin <hardcode-dll-paths>true 
+             ;

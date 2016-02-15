@@ -1,0 +1,259 @@
+<widget class="PopupMdiWindow" popup="rb">
+	<p n="geometry">
+		<QRect>
+			<x>209</x>
+			<y>190</y>
+			<w>1427</w>
+			<h>563</h>
+		</QRect>
+	</p>
+	<p n="frameShape">
+		<int>0</int>
+	</p>
+	<p n="frameShadow">
+		<int>16</int>
+	</p>
+	<p n="lineWidth">
+		<int>1</int>
+	</p>
+	<p n="midLineWidth">
+		<int>0</int>
+	</p>
+	<p n="margin">
+		<int>0</int>
+	</p>
+	<p n="paletteBackgroundColor">
+		<QColor>#eeeeee</QColor>
+	</p>
+	<widget class="Graph">
+		<p n="ORN">
+			<int>0</int>
+		</p>
+		<p n="BCKG_C">
+			<QColor>#5a5a5a</QColor>
+		</p>
+		<p n="GRID_C">
+			<QColor>#4e5356</QColor>
+		</p>
+		<p n="TEXT_C">
+			<QColor>#000000</QColor>
+		</p>
+		<p n="SCL_C">
+			<QColor>#aeaeae</QColor>
+		</p>
+		<p n="TIME">
+			<int>60</int>
+		</p>
+		<p n="RGM">
+			<int>1</int>
+		</p>
+		<p n="GRD_P">
+			<int>0</int>
+		</p>
+		<p n="S_P">
+			<int>0</int>
+		</p>
+		<p n="VRT_L">
+			<int>12</int>
+		</p>
+		<p n="HOR_L">
+			<int>15</int>
+		</p>
+		<p n="GR_LS">
+			<vtlmeta::types::NamedList type="sValue">
+				<vtlmeta::types::NamedMap type="sValue">
+					<p n="auto_scale">
+						<int>0</int>
+					</p>
+					<p n="auto_scale_percent">
+						<int>0</int>
+					</p>
+					<p n="color">
+						<QColor>#000000</QColor>
+					</p>
+					<p n="max_scale">
+						<float>0</float>
+					</p>
+					<p n="min_scale">
+						<float>0</float>
+					</p>
+					<p n="own_scale">
+						<int>0</int>
+					</p>
+					<p n="port">
+						<int>0</int>
+					</p>
+					<p n="s_name">
+						<QString>sat.dev.AI_VAL.FDifSkNGDef</QString>
+					</p>
+					<p n="show_scale">
+						<int>1</int>
+					</p>
+				</vtlmeta::types::NamedMap>
+			</vtlmeta::types::NamedList>
+		</p>
+		<p n="W_LB">
+			<bool>0</bool>
+		</p>
+		<p n="W_RB">
+			<bool>0</bool>
+		</p>
+		<p n="VIS">
+			<int>0</int>
+		</p>
+		<p n="geometry">
+			<QRect>
+				<x>2</x>
+				<y>59</y>
+				<w>1424</w>
+				<h>503</h>
+			</QRect>
+		</p>
+		<p n="frameShape">
+			<int>0</int>
+		</p>
+		<p n="frameShadow">
+			<int>16</int>
+		</p>
+		<p n="lineWidth">
+			<int>1</int>
+		</p>
+		<p n="midLineWidth">
+			<int>0</int>
+		</p>
+		<p n="margin">
+			<int>0</int>
+		</p>
+	</widget>
+	<widget class="Figures">
+		<p n="PR_FNT">
+			<QFont>Tahoma,10,-1,5,50,0,0,0,0,0</QFont>
+		</p>
+		<p n="SF_FNT">
+			<QFont>Tahoma,10,-1,5,50,0,0,0,0,0</QFont>
+		</p>
+		<p n="BCKG_C">
+			<QColor>#55aa00</QColor>
+		</p>
+		<p n="NRM_C">
+			<QColor>#ffffff</QColor>
+		</p>
+		<p n="ATT_C">
+			<QColor>#ffff00</QColor>
+		</p>
+		<p n="CR_C">
+			<QColor>#ff0000</QColor>
+		</p>
+		<p n="BL_TP">
+			<int>0</int>
+		</p>
+		<p n="MIN_BLV">
+			<int>0</int>
+		</p>
+		<p n="MAX_BLV">
+			<int>100</int>
+		</p>
+		<p n="BL_CLR">
+			<QColor>#ffffff</QColor>
+		</p>
+		<p n="BL_A_C">
+			<QColor>#000000</QColor>
+		</p>
+		<p n="NDG">
+			<int>1</int>
+		</p>
+		<p n="U_MSK">
+			<bool>0</bool>
+		</p>
+		<p n="DG_AL">
+			<int>0</int>
+		</p>
+		<p n="SRC">
+			<QString>sat.dev.AI_VAL.FDifSkNGDef</QString>
+		</p>
+		<p n="W_LB">
+			<bool>0</bool>
+		</p>
+		<p n="W_RB">
+			<bool>0</bool>
+		</p>
+		<p n="VIS">
+			<int>0</int>
+		</p>
+		<p n="font">
+			<QFont>Tahoma,28,-1,5,50,0,0,0,0,0</QFont>
+		</p>
+		<p n="geometry">
+			<QRect>
+				<x>1291</x>
+				<y>2</y>
+				<w>135</w>
+				<h>56</h>
+			</QRect>
+		</p>
+		<p n="frameShape">
+			<int>0</int>
+		</p>
+		<p n="frameShadow">
+			<int>16</int>
+		</p>
+		<p n="lineWidth">
+			<int>1</int>
+		</p>
+		<p n="midLineWidth">
+			<int>0</int>
+		</p>
+		<p n="margin">
+			<int>0</int>
+		</p>
+	</widget>
+	<widget class="Text">
+		<p n="BCKG_C">
+			<QColor>#cdcdcd</QColor>
+		</p>
+		<p n="NRM_C">
+			<QColor>#000000</QColor>
+		</p>
+		<p n="TEXT">
+			<QString>Вит. соку на гарячмй дефекатор перед 1-сат.</QString>
+		</p>
+		<p n="U_MSK">
+			<bool>0</bool>
+		</p>
+		<p n="W_LB">
+			<bool>0</bool>
+		</p>
+		<p n="W_RB">
+			<bool>0</bool>
+		</p>
+		<p n="VIS">
+			<int>0</int>
+		</p>
+		<p n="font">
+			<QFont>Tahoma,20,-1,5,50,0,0,0,0,0</QFont>
+		</p>
+		<p n="geometry">
+			<QRect>
+				<x>2</x>
+				<y>2</y>
+				<w>1282</w>
+				<h>56</h>
+			</QRect>
+		</p>
+		<p n="frameShape">
+			<int>0</int>
+		</p>
+		<p n="frameShadow">
+			<int>16</int>
+		</p>
+		<p n="lineWidth">
+			<int>1</int>
+		</p>
+		<p n="midLineWidth">
+			<int>0</int>
+		</p>
+		<p n="margin">
+			<int>0</int>
+		</p>
+	</widget>
+          </widget>

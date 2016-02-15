@@ -1,0 +1,39 @@
+
+
+project : requirements <include>/usr/local/include 
+                       <include>../../core
+                       <include>../connection
+                       <include>../drivers/input
+                       <include>../drivers/output/core
+                       <variant>debug <threading>multi <cxxflags>-std=gnu++0x
+                       <dll-path>/usr
+        : build-dir ../../../obj/communication
+        ;
+
+
+
+
+lib communication      : engine.h 
+                         engine.cpp 
+                         entries.h 
+                         entries.cpp 
+                         init.h 
+                         init.cpp 
+                         ../../core/tag.h 
+                         ../../core/tag.cpp 
+                         netmodule.h 
+                         netmodule.cpp 
+                         inputdevice.h 
+                         inputdevice.cpp 
+                         tools.h 
+                         tools.cpp 
+                         outputdevice.h 
+                         outputdevice.cpp  
+                         ../connection/outputethernetconnection.h 
+                         ../connection/outputethernetconnection.cpp
+                         ../drivers/output/core/outputdriverbase.h
+                       ;
+
+install dist : communication
+             : <location>../../../lib/ <hardcode-dll-paths>true
+             ;

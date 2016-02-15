@@ -1,0 +1,9 @@
+CREATE PROCEDURE create_scale_table ( IN table_name VARCHAR(100) ) MODIFIES SQL DATA
+BEGIN
+  SET @sql = CONCAT('CREATE TABLE ', table_name , ' (Time TIMESTAMP, NScale SMALLINT AUTO_INCREMENT NOT NULL PRIMARY KEY, MinS FLOAT, MaxS FLOAT)' ) ;
+  PREPARE cnt_query FROM @sql;
+  EXECUTE cnt_query;
+  DEALLOCATE PREPARE cnt_query;
+END;
+
+

@@ -1,0 +1,16 @@
+
+
+project : requirements <include>/usr/local/include 
+          <variant>debug 
+          <threading>multi 
+          <cxxflags>-std=gnu++0x
+        : build-dir ../../../obj/tools/converter
+        ;
+
+exe  srvc_conf_conv : main.cpp 
+                      /usr/lib/libboost_filesystem.so
+                    ;
+
+install dist : srvc_conf_conv
+             : <location>../../../bin
+             ;
